@@ -1,0 +1,2327 @@
+port: 7890
+socks-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :60919
+proxies:
+  - {name: 🇭🇰 0-香港Netflix, server: reverie.yogurt8.us, port: 43125, type: ssr, cipher: chacha20-ietf, password: sGWdzYDx5J, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - name: 🇨🇳 3-台湾中转
+    server: anactorinstanceofjudgingsomethin.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇺🇸 21美国中转
+    server: 3-methyl-2-oxobutanoate.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: 3-methyl-2-oxobutanoate.yogurt8.us
+  - name: 🇨🇳 4-台湾中转
+    server: haveforgotten.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇯🇵 15日本中转
+    server: set.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: set.suannai.us
+  - name: 🇨🇳 0-台湾中转
+    server: reverie.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇭🇰 8-香港中转
+    server: petrichor.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇯🇵 16日本中转
+    server: get.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: get.suannai.us
+  - name: 🇯🇵 17日本中转
+    server: rec.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: rec.suannai.us
+  - name: 🇯🇵 18日本中转
+    server: team.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: team.suannai.us
+  - name: 🇨🇳 5-台湾中转
+    server: mei4.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇭🇰 6-香港中转
+    server: mei2-aksjyiukj.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: mei2-aksjyiukj.yogurt8.us
+  - name: 🇭🇰 7-香港中转
+    server: records.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇨🇳 14-台湾中转
+    server: here.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: here.suannai.us
+  - name: 🇭🇰 9-香港中转
+    server: sisiguraduhin.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: sisiguraduhin.godeove.xyz
+  - name: 🇺🇸 19美国中转
+    server: lovemeansneverhaving.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: lovemeansneverhaving.godeove.xyz
+  - name: 🇨🇳 13-台湾中转
+    server: subscription.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: subscription.suannai.us
+  - name: 🇨🇳 1-台湾中转
+    server: nfx9.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: mei10-dskaluiekkjh.yogurt8.us
+  - name: 🇭🇰 11-香港中转
+    server: insomnia.yogurt8.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: insomnia.yogurt8.us
+  - name: 🇨🇳 2-台湾中转
+    server: csilicovolcanoconiosis.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇨🇳 12-台湾中转
+    server: cool.suannai.us
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇭🇰 10-香港中转
+    server: god.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: shenghesai-d98iu8di.yogurt8.us
+  - name: 🇺🇸 20美国中转
+    server: cancelsubscription.godeove.xyz
+    port: 43125
+    type: ssr
+    cipher: chacha20-ietf
+    password: sGWdzYDx5J
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+  - name: 🇭🇰 日用 专线 香港 [0.2]
+    server: aexgzbgp01.114837322.xyz
+    port: 14391
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 日用 专线 狮城 [0.2]
+    server: aexgzbgp01.114837322.xyz
+    port: 14392
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日用 专线 日本 [0.2]
+    server: aexshbgp01.114837322.xyz
+    port: 14393
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 日用 专线 美国 [0.2]
+    server: aexshbgp01.114837322.xyz
+    port: 14394
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14401
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 02
+    server: aexgzbgp01.114837322.xyz
+    port: 14402
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 03
+    server: aexgzbgp01.114837322.xyz
+    port: 14403
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 04
+    server: aexgzbgp01.114837322.xyz
+    port: 14404
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 05
+    server: aexgzbgp01.114837322.xyz
+    port: 14405
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 06
+    server: aexgzbgp01.114837322.xyz
+    port: 14406
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 07
+    server: aexgzbgp01.114837322.xyz
+    port: 14407
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 高级 专线 香港 08
+    server: aexgzbgp01.114837322.xyz
+    port: 14408
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 高级 专线 狮城 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14411
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 高级 专线 狮城 02
+    server: aexgzbgp01.114837322.xyz
+    port: 14412
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 高级 专线 狮城 03
+    server: aexgzbgp01.114837322.xyz
+    port: 14413
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 高级 专线 狮城 04
+    server: aexgzbgp01.114837322.xyz
+    port: 14414
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 高级 专线 狮城 05
+    server: aexgzbgp01.114837322.xyz
+    port: 14415
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 01
+    server: aexshbgp01.114837322.xyz
+    port: 14431
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 02
+    server: aexshbgp01.114837322.xyz
+    port: 14432
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 03
+    server: aexshbgp01.114837322.xyz
+    port: 14433
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 04
+    server: aexshbgp01.114837322.xyz
+    port: 14434
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 05
+    server: aexshbgp01.114837322.xyz
+    port: 14435
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 06
+    server: aexshbgp01.114837322.xyz
+    port: 14436
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 07
+    server: aexshbgp01.114837322.xyz
+    port: 14437
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 08
+    server: aexshbgp01.114837322.xyz
+    port: 14438
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 09
+    server: aexshbgp01.114837322.xyz
+    port: 14439
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 高级 专线 美国 10
+    server: aexshbgp01.114837322.xyz
+    port: 14440
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇰🇷 高级 专线 韩国 01
+    server: aexshbgp01.114837322.xyz
+    port: 14441
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇰🇷 高级 专线 韩国 02
+    server: aexshbgp01.114837322.xyz
+    port: 14442
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇳 高级 专线 台湾 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14451
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇳 高级 专线 台湾 02
+    server: aexgzbgp01.114837322.xyz
+    port: 14452
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 01
+    server: aexshbgp01.114837322.xyz
+    port: 14421
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 02
+    server: aexshbgp01.114837322.xyz
+    port: 14422
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 03
+    server: aexshbgp01.114837322.xyz
+    port: 14423
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 04
+    server: aexshbgp01.114837322.xyz
+    port: 14424
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 05
+    server: aexshbgp01.114837322.xyz
+    port: 14425
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 06
+    server: aexshbgp01.114837322.xyz
+    port: 14426
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 07
+    server: aexshbgp01.114837322.xyz
+    port: 14427
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 高级 专线 日本 08
+    server: aexshbgp01.114837322.xyz
+    port: 14428
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 标准 专线 香港 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14301
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 标准 专线 香港 02
+    server: aexgzbgp01.114837322.xyz
+    port: 14302
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 标准 专线 香港 03
+    server: aexgzbgp01.114837322.xyz
+    port: 14303
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 标准 专线 狮城 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14311
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 标准 专线 狮城 02
+    server: aexgzbgp01.114837322.xyz
+    port: 14312
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 标准 专线 狮城 03
+    server: aexgzbgp01.114837322.xyz
+    port: 14313
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 01
+    server: aexshbgp01.114837322.xyz
+    port: 14331
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 02
+    server: aexshbgp01.114837322.xyz
+    port: 14332
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 03
+    server: aexshbgp01.114837322.xyz
+    port: 14333
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 04
+    server: aexshbgp01.114837322.xyz
+    port: 14334
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 05
+    server: aexshbgp01.114837322.xyz
+    port: 14335
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 标准 专线 美国 06
+    server: aexshbgp01.114837322.xyz
+    port: 14336
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇰🇷 标准 专线 韩国 01
+    server: aexshbgp01.114837322.xyz
+    port: 14341
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 标准 专线 日本 01
+    server: aexshbgp01.114837322.xyz
+    port: 14321
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 标准 专线 日本 02
+    server: aexshbgp01.114837322.xyz
+    port: 14322
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 标准 专线 日本 03
+    server: aexshbgp01.114837322.xyz
+    port: 14323
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 标准 专线 日本 04
+    server: aexshbgp01.114837322.xyz
+    port: 14324
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇳 标准 专线 台湾 01
+    server: aexgzbgp01.114837322.xyz
+    port: 14351
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧 特殊 专线 伦敦 01
+    server: aexbjbgp01.114837322.xyz
+    port: 14501
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧 特殊 专线 伦敦 02
+    server: aexbjbgp01.114837322.xyz
+    port: 14502
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪 特殊 专线 德国 01
+    server: aexbjbgp01.114837322.xyz
+    port: 14500
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪 特殊 专线 德国 02
+    server: aexbjbgp01.114837322.xyz
+    port: 14507
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇧🇷 特殊 专线 巴西 01
+    server: aexshbgp01.114837322.xyz
+    port: 14505
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇧🇷 特殊 专线 巴西 02
+    server: aexshbgp01.114837322.xyz
+    port: 14512
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇦 特殊 专线 加拿大 01
+    server: aexshbgp01.114837322.xyz
+    port: 14506
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇦 特殊 专线 加拿大 02
+    server: aexshbgp01.114837322.xyz
+    port: 14508
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇷 特殊 专线 土耳其 01
+    server: aexbjbgp01.114837322.xyz
+    port: 14498
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇷 特殊 专线 土耳其 02
+    server: aexbjbgp01.114837322.xyz
+    port: 14518
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇭 特殊 专线 泰国
+    server: aexgzbgp01.114837322.xyz
+    port: 14461
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 特殊 专线 越南
+    server: aexgzbgp01.114837322.xyz
+    port: 14462
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇳 特殊 专线 印度
+    server: aexgzbgp01.114837322.xyz
+    port: 14494
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇦🇺 特殊 专线 悉尼
+    server: aexgzbgp01.114837322.xyz
+    port: 14499
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇦🇪 特殊 专线 迪拜
+    server: aexgzbgp01.114837322.xyz
+    port: 14503
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇫🇷 特殊 专线 法国
+    server: aexbjbgp01.114837322.xyz
+    port: 14504
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 特殊 专线 荷兰
+    server: aexbjbgp01.114837322.xyz
+    port: 14513
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇩 特殊 专线 印尼
+    server: aexgzbgp01.114837322.xyz
+    port: 14514
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇿🇦 特殊 专线 南非
+    server: aexgzbgp01.114837322.xyz
+    port: 14515
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇪🇬 特殊 专线 埃及
+    server: aexbjbgp01.114837322.xyz
+    port: 14520
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇭 特殊 专线 菲律宾
+    server: aexgzbgp01.114837322.xyz
+    port: 14491
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇹 特殊 专线 意大利
+    server: aexbjbgp01.114837322.xyz
+    port: 14493
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇪🇸 特殊 专线 西班牙
+    server: aexbjbgp01.114837322.xyz
+    port: 14492
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇺 特殊 专线 匈牙利
+    server: aexbjbgp01.114837322.xyz
+    port: 14496
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇱 特殊 专线 以色列
+    server: aexbjbgp01.114837322.xyz
+    port: 14509
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇦 特殊 专线 乌克兰
+    server: aexbjbgp01.114837322.xyz
+    port: 14511
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇷🇺 特殊 专线 俄罗斯
+    server: aexbjbgp01.114837322.xyz
+    port: 14495
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇲🇾 特殊 专线 马来西亚
+    server: aexgzbgp01.114837322.xyz
+    port: 14519
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 特殊 专线 尼日利亚
+    server: aexgzbgp01.114837322.xyz
+    port: 14510
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇰 特殊 专线 巴基斯坦
+    server: aexgzbgp01.114837322.xyz
+    port: 14516
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇲🇩 特殊 专线 摩尔多瓦
+    server: aexbjbgp01.114837322.xyz
+    port: 14517
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇦🇷 购物 专线 阿根廷
+    server: aexshbgp01.114837322.xyz
+    port: 14497
+    type: trojan
+    password: 6E8FC979-A0E5-AE55-013E-0F59E84E8716
+    sni: mpvideo.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - {name: "🇭🇰 日用 专线 香港 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇸🇬 日用 专线 狮城 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇯🇵 日用 专线 日本 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇺🇸 日用 专线 美国 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 04-a, server: aexgzbgp01.114837322.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 05-a, server: aexgzbgp01.114837322.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 06-a, server: aexgzbgp01.114837322.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 07-a, server: aexgzbgp01.114837322.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 08-a, server: aexgzbgp01.114837322.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14111, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14112, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14113, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 04-a, server: aexgzbgp01.114837322.xyz, port: 14114, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 05-a, server: aexgzbgp01.114837322.xyz, port: 14115, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14133, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14134, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14135, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14136, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 07-a, server: aexshbgp01.114837322.xyz, port: 14137, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 08-a, server: aexshbgp01.114837322.xyz, port: 14138, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 09-a, server: aexshbgp01.114837322.xyz, port: 14139, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 10-a, server: aexshbgp01.114837322.xyz, port: 14140, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 02-a, server: aexshbgp01.114837322.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14151, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 02-a, server: aexgzbgp01.114837322.xyz, port: 14152, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 05-a, server: aexshbgp01.114837322.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 06-a, server: aexshbgp01.114837322.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 07-a, server: aexshbgp01.114837322.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 08-a, server: aexshbgp01.114837322.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14002, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14011, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14012, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14013, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14031, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14032, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14033, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14034, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14035, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14036, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 标准 专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14022, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 标准 专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14051, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 01-a, server: aexbjbgp01.114837322.xyz, port: 14201, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 02-a, server: aexbjbgp01.114837322.xyz, port: 14202, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 01-a, server: aexbjbgp01.114837322.xyz, port: 14200, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 02-a, server: aexbjbgp01.114837322.xyz, port: 14207, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇧🇷 特殊 专线 巴西 01-a, server: aexshbgp01.114837322.xyz, port: 14205, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 01-a, server: aexshbgp01.114837322.xyz, port: 14206, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 02-a, server: aexshbgp01.114837322.xyz, port: 14208, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 01-a, server: aexbjbgp01.114837322.xyz, port: 14198, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 02-a, server: aexbjbgp01.114837322.xyz, port: 14218, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇭 特殊 专线 泰国-a, server: aexgzbgp01.114837322.xyz, port: 14161, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇻🇳 特殊 专线 越南-a, server: aexgzbgp01.114837322.xyz, port: 14162, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇳 特殊 专线 印度-a, server: aexgzbgp01.114837322.xyz, port: 14194, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇺 特殊 专线 悉尼-a, server: aexgzbgp01.114837322.xyz, port: 14199, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇪 特殊 专线 迪拜-a, server: aexgzbgp01.114837322.xyz, port: 14203, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇫🇷 特殊 专线 法国-a, server: aexbjbgp01.114837322.xyz, port: 14204, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇳🇱 特殊 专线 荷兰-a, server: aexbjbgp01.114837322.xyz, port: 14213, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇩 特殊 专线 印尼-a, server: aexgzbgp01.114837322.xyz, port: 14214, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇪🇬 特殊 专线 埃及-a, server: aexbjbgp01.114837322.xyz, port: 14220, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇵🇭 特殊 专线 菲律宾-a, server: aexgzbgp01.114837322.xyz, port: 14191, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇹 特殊 专线 意大利-a, server: aexbjbgp01.114837322.xyz, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇪🇸 特殊 专线 西班牙-a, server: aexbjbgp01.114837322.xyz, port: 14192, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇺 特殊 专线 匈牙利-a, server: aexbjbgp01.114837322.xyz, port: 14196, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇱 特殊 专线 以色列-a, server: aexbjbgp01.114837322.xyz, port: 14209, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇦 特殊 专线 乌克兰-a, server: aexbjbgp01.114837322.xyz, port: 14211, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇷🇺 特殊 专线 俄罗斯-a, server: aexbjbgp01.114837322.xyz, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇲🇾 特殊 专线 马来西亚-a, server: aexgzbgp01.114837322.xyz, port: 14219, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 特殊 专线 尼日利亚-a, server: aexgzbgp01.114837322.xyz, port: 14210, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇵🇰 特殊 专线 巴基斯坦-a, server: aexgzbgp01.114837322.xyz, port: 14216, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇲🇩 特殊 专线 摩尔多瓦-a, server: aexbjbgp01.114837322.xyz, port: 14217, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇷 购物 专线 阿根廷-a, server: aexshbgp01.114837322.xyz, port: 14197, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - { name: '加拿大 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-n899yYukPeoUjy9g.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-ca.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-ca.sm-node.com } }
+  - { name: '日本 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-DJDbAt2YVvbnkbkD.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-jp.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-jp.sm-node.com } }
+  - { name: '新加坡 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-nyB0KwN6XDQURoxT.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-sg.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-sg.sm-node.com } }
+  - { name: '美国 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-IJV6qatEWPKShkrR.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-us.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-us.sm-node.com } }
+  - { name: '香港 01（HKT）', type: trojan, server: tj-hk-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: cDqM10LLiGQ7NngX.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '香港 02（HKT）', type: trojan, server: tj-hk-2.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: T3r2YXaAlignVsb6.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '日本 樱花 新协议', type: trojan, server: tj-jp-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '香港 新协议', type: trojan, server: aws-hkhk.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '日本 aws 新协议', type: trojan, server: aws-jpjp.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '美国 新协议(GPT优化)', type: trojan, server: tj-us-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '新加坡 AWS', type: trojan, server: tj-sg-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - 🤖️ 自动选择服务器
+      - 🤖️ 自动选择服务器2
+      - DIRECT
+      - 🇭🇰 0-香港Netflix
+      - 🇨🇳 3-台湾中转
+      - 🇺🇸 21美国中转
+      - 🇨🇳 4-台湾中转
+      - 🇯🇵 15日本中转
+      - 🇨🇳 0-台湾中转
+      - 🇭🇰 8-香港中转
+      - 🇯🇵 16日本中转
+      - 🇯🇵 17日本中转
+      - 🇯🇵 18日本中转
+      - 🇨🇳 5-台湾中转
+      - 🇭🇰 6-香港中转
+      - 🇭🇰 7-香港中转
+      - 🇨🇳 14-台湾中转
+      - 🇭🇰 9-香港中转
+      - 🇺🇸 19美国中转
+      - 🇨🇳 13-台湾中转
+      - 🇨🇳 1-台湾中转
+      - 🇭🇰 11-香港中转
+      - 🇨🇳 2-台湾中转
+      - 🇨🇳 12-台湾中转
+      - 🇭🇰 10-香港中转
+      - 🇺🇸 20美国中转
+      - 🇭🇰 日用 专线 香港 [0.2]
+      - 🇸🇬 日用 专线 狮城 [0.2]
+      - 🇯🇵 日用 专线 日本 [0.2]
+      - 🇺🇸 日用 专线 美国 [0.2]
+      - 🇭🇰 高级 专线 香港 01
+      - 🇭🇰 高级 专线 香港 02
+      - 🇭🇰 高级 专线 香港 03
+      - 🇭🇰 高级 专线 香港 04
+      - 🇭🇰 高级 专线 香港 05
+      - 🇭🇰 高级 专线 香港 06
+      - 🇭🇰 高级 专线 香港 07
+      - 🇭🇰 高级 专线 香港 08
+      - 🇸🇬 高级 专线 狮城 01
+      - 🇸🇬 高级 专线 狮城 02
+      - 🇸🇬 高级 专线 狮城 03
+      - 🇸🇬 高级 专线 狮城 04
+      - 🇸🇬 高级 专线 狮城 05
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
+      - 🇺🇸 高级 专线 美国 03
+      - 🇺🇸 高级 专线 美国 04
+      - 🇺🇸 高级 专线 美国 05
+      - 🇺🇸 高级 专线 美国 06
+      - 🇺🇸 高级 专线 美国 07
+      - 🇺🇸 高级 专线 美国 08
+      - 🇺🇸 高级 专线 美国 09
+      - 🇺🇸 高级 专线 美国 10
+      - 🇰🇷 高级 专线 韩国 01
+      - 🇰🇷 高级 专线 韩国 02
+      - 🇨🇳 高级 专线 台湾 01
+      - 🇨🇳 高级 专线 台湾 02
+      - 🇯🇵 高级 专线 日本 01
+      - 🇯🇵 高级 专线 日本 02
+      - 🇯🇵 高级 专线 日本 03
+      - 🇯🇵 高级 专线 日本 04
+      - 🇯🇵 高级 专线 日本 05
+      - 🇯🇵 高级 专线 日本 06
+      - 🇯🇵 高级 专线 日本 07
+      - 🇯🇵 高级 专线 日本 08
+      - 🇭🇰 标准 专线 香港 01
+      - 🇭🇰 标准 专线 香港 02
+      - 🇭🇰 标准 专线 香港 03
+      - 🇸🇬 标准 专线 狮城 01
+      - 🇸🇬 标准 专线 狮城 02
+      - 🇸🇬 标准 专线 狮城 03
+      - 🇺🇸 标准 专线 美国 01
+      - 🇺🇸 标准 专线 美国 02
+      - 🇺🇸 标准 专线 美国 03
+      - 🇺🇸 标准 专线 美国 04
+      - 🇺🇸 标准 专线 美国 05
+      - 🇺🇸 标准 专线 美国 06
+      - 🇰🇷 标准 专线 韩国 01
+      - 🇯🇵 标准 专线 日本 01
+      - 🇯🇵 标准 专线 日本 02
+      - 🇯🇵 标准 专线 日本 03
+      - 🇯🇵 标准 专线 日本 04
+      - 🇨🇳 标准 专线 台湾 01
+      - 🇬🇧 特殊 专线 伦敦 01
+      - 🇬🇧 特殊 专线 伦敦 02
+      - 🇩🇪 特殊 专线 德国 01
+      - 🇩🇪 特殊 专线 德国 02
+      - 🇧🇷 特殊 专线 巴西 01
+      - 🇧🇷 特殊 专线 巴西 02
+      - 🇨🇦 特殊 专线 加拿大 01
+      - 🇨🇦 特殊 专线 加拿大 02
+      - 🇹🇷 特殊 专线 土耳其 01
+      - 🇹🇷 特殊 专线 土耳其 02
+      - 🇹🇭 特殊 专线 泰国
+      - 🇻🇳 特殊 专线 越南
+      - 🇮🇳 特殊 专线 印度
+      - 🇦🇺 特殊 专线 悉尼
+      - 🇦🇪 特殊 专线 迪拜
+      - 🇫🇷 特殊 专线 法国
+      - 🇳🇱 特殊 专线 荷兰
+      - 🇮🇩 特殊 专线 印尼
+      - 🇿🇦 特殊 专线 南非
+      - 🇵🇭 特殊 专线 菲律宾
+      - 🇮🇹 特殊 专线 意大利
+      - 🇪🇸 特殊 专线 西班牙
+      - 🇭🇺 特殊 专线 匈牙利
+      - 🇮🇱 特殊 专线 以色列
+      - 🇺🇦 特殊 专线 乌克兰
+      - 🇷🇺 特殊 专线 俄罗斯
+      - 🇲🇾 特殊 专线 马来西亚
+      - 🇵🇰 特殊 专线 巴基斯坦
+      - 🇲🇩 特殊 专线 摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
+      - 加拿大 高速 cdn 1
+      - 日本 高速 cdn 1
+      - 新加坡 高速 cdn 1
+      - 美国 高速 cdn 1
+      - 香港 01（HKT）
+      - 香港 02（HKT）
+      - 日本 樱花 新协议
+      - 香港 新协议
+      - 日本 aws 新协议
+      - 美国 新协议(GPT优化)
+      - 新加坡 AWS
+  - name: 🤖️ 自动选择服务器
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 0-香港Netflix
+      - 🇨🇳 3-台湾中转
+      - 🇺🇸 21美国中转
+      - 🇨🇳 4-台湾中转
+      - 🇯🇵 15日本中转
+      - 🇨🇳 0-台湾中转
+      - 🇭🇰 8-香港中转
+      - 🇯🇵 16日本中转
+      - 🇯🇵 17日本中转
+      - 🇯🇵 18日本中转
+      - 🇨🇳 5-台湾中转
+      - 🇭🇰 6-香港中转
+      - 🇭🇰 7-香港中转
+      - 🇨🇳 14-台湾中转
+      - 🇭🇰 9-香港中转
+      - 🇺🇸 19美国中转
+      - 🇨🇳 13-台湾中转
+      - 🇨🇳 1-台湾中转
+      - 🇭🇰 11-香港中转
+      - 🇨🇳 2-台湾中转
+      - 🇨🇳 12-台湾中转
+      - 🇭🇰 10-香港中转
+      - 🇺🇸 20美国中转
+      - 🇭🇰 日用 专线 香港 [0.2]
+      - 🇸🇬 日用 专线 狮城 [0.2]
+      - 🇯🇵 日用 专线 日本 [0.2]
+      - 🇺🇸 日用 专线 美国 [0.2]
+      - 🇭🇰 高级 专线 香港 01
+      - 🇭🇰 高级 专线 香港 02
+      - 🇭🇰 高级 专线 香港 03
+      - 🇭🇰 高级 专线 香港 04
+      - 🇭🇰 高级 专线 香港 05
+      - 🇭🇰 高级 专线 香港 06
+      - 🇭🇰 高级 专线 香港 07
+      - 🇭🇰 高级 专线 香港 08
+      - 🇸🇬 高级 专线 狮城 01
+      - 🇸🇬 高级 专线 狮城 02
+      - 🇸🇬 高级 专线 狮城 03
+      - 🇸🇬 高级 专线 狮城 04
+      - 🇸🇬 高级 专线 狮城 05
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
+      - 🇺🇸 高级 专线 美国 03
+      - 🇺🇸 高级 专线 美国 04
+      - 🇺🇸 高级 专线 美国 05
+      - 🇺🇸 高级 专线 美国 06
+      - 🇺🇸 高级 专线 美国 07
+      - 🇺🇸 高级 专线 美国 08
+      - 🇺🇸 高级 专线 美国 09
+      - 🇺🇸 高级 专线 美国 10
+      - 🇰🇷 高级 专线 韩国 01
+      - 🇰🇷 高级 专线 韩国 02
+      - 🇨🇳 高级 专线 台湾 01
+      - 🇨🇳 高级 专线 台湾 02
+      - 🇯🇵 高级 专线 日本 01
+      - 🇯🇵 高级 专线 日本 02
+      - 🇯🇵 高级 专线 日本 03
+      - 🇯🇵 高级 专线 日本 04
+      - 🇯🇵 高级 专线 日本 05
+      - 🇯🇵 高级 专线 日本 06
+      - 🇯🇵 高级 专线 日本 07
+      - 🇯🇵 高级 专线 日本 08
+      - 🇭🇰 标准 专线 香港 01
+      - 🇭🇰 标准 专线 香港 02
+      - 🇭🇰 标准 专线 香港 03
+      - 🇸🇬 标准 专线 狮城 01
+      - 🇸🇬 标准 专线 狮城 02
+      - 🇸🇬 标准 专线 狮城 03
+      - 🇺🇸 标准 专线 美国 01
+      - 🇺🇸 标准 专线 美国 02
+      - 🇺🇸 标准 专线 美国 03
+      - 🇺🇸 标准 专线 美国 04
+      - 🇺🇸 标准 专线 美国 05
+      - 🇺🇸 标准 专线 美国 06
+      - 🇰🇷 标准 专线 韩国 01
+      - 🇯🇵 标准 专线 日本 01
+      - 🇯🇵 标准 专线 日本 02
+      - 🇯🇵 标准 专线 日本 03
+      - 🇯🇵 标准 专线 日本 04
+      - 🇨🇳 标准 专线 台湾 01
+      - 🇬🇧 特殊 专线 伦敦 01
+      - 🇬🇧 特殊 专线 伦敦 02
+      - 🇩🇪 特殊 专线 德国 01
+      - 🇩🇪 特殊 专线 德国 02
+      - 🇧🇷 特殊 专线 巴西 01
+      - 🇧🇷 特殊 专线 巴西 02
+      - 🇨🇦 特殊 专线 加拿大 01
+      - 🇨🇦 特殊 专线 加拿大 02
+      - 🇹🇷 特殊 专线 土耳其 01
+      - 🇹🇷 特殊 专线 土耳其 02
+      - 🇹🇭 特殊 专线 泰国
+      - 🇻🇳 特殊 专线 越南
+      - 🇮🇳 特殊 专线 印度
+      - 🇦🇺 特殊 专线 悉尼
+      - 🇦🇪 特殊 专线 迪拜
+      - 🇫🇷 特殊 专线 法国
+      - 🇳🇱 特殊 专线 荷兰
+      - 🇮🇩 特殊 专线 印尼
+      - 🇿🇦 特殊 专线 南非
+      - 🇵🇭 特殊 专线 菲律宾
+      - 🇮🇹 特殊 专线 意大利
+      - 🇪🇸 特殊 专线 西班牙
+      - 🇭🇺 特殊 专线 匈牙利
+      - 🇮🇱 特殊 专线 以色列
+      - 🇺🇦 特殊 专线 乌克兰
+      - 🇷🇺 特殊 专线 俄罗斯
+      - 🇲🇾 特殊 专线 马来西亚
+      - 🇵🇰 特殊 专线 巴基斯坦
+      - 🇲🇩 特殊 专线 摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
+      - 🇭🇰 日用 专线 香港 [0.2]-a
+      - 🇸🇬 日用 专线 狮城 [0.2]-a
+      - 🇯🇵 日用 专线 日本 [0.2]-a
+      - 🇺🇸 日用 专线 美国 [0.2]-a
+      - 🇭🇰 高级 专线 香港 01-a
+      - 🇭🇰 高级 专线 香港 02-a
+      - 🇭🇰 高级 专线 香港 03-a
+      - 🇭🇰 高级 专线 香港 04-a
+      - 🇭🇰 高级 专线 香港 05-a
+      - 🇭🇰 高级 专线 香港 06-a
+      - 🇭🇰 高级 专线 香港 07-a
+      - 🇭🇰 高级 专线 香港 08-a
+      - 🇸🇬 高级 专线 狮城 01-a
+      - 🇸🇬 高级 专线 狮城 02-a
+      - 🇸🇬 高级 专线 狮城 03-a
+      - 🇸🇬 高级 专线 狮城 04-a
+      - 🇸🇬 高级 专线 狮城 05-a
+      - 🇺🇸 高级 专线 美国 01-a
+      - 🇺🇸 高级 专线 美国 02-a
+      - 🇺🇸 高级 专线 美国 03-a
+      - 🇺🇸 高级 专线 美国 04-a
+      - 🇺🇸 高级 专线 美国 05-a
+      - 🇺🇸 高级 专线 美国 06-a
+      - 🇺🇸 高级 专线 美国 07-a
+      - 🇺🇸 高级 专线 美国 08-a
+      - 🇺🇸 高级 专线 美国 09-a
+      - 🇺🇸 高级 专线 美国 10-a
+      - 🇰🇷 高级 专线 韩国 01-a
+      - 🇰🇷 高级 专线 韩国 02-a
+      - 🇨🇳 高级 专线 台湾 01-a
+      - 🇨🇳 高级 专线 台湾 02-a
+      - 🇯🇵 高级 专线 日本 01-a
+      - 🇯🇵 高级 专线 日本 02-a
+      - 🇯🇵 高级 专线 日本 03-a
+      - 🇯🇵 高级 专线 日本 04-a
+      - 🇯🇵 高级 专线 日本 05-a
+      - 🇯🇵 高级 专线 日本 06-a
+      - 🇯🇵 高级 专线 日本 07-a
+      - 🇯🇵 高级 专线 日本 08-a
+      - 🇭🇰 标准 专线 香港 01-a
+      - 🇭🇰 标准 专线 香港 02-a
+      - 🇭🇰 标准 专线 香港 03-a
+      - 🇸🇬 标准 专线 狮城 01-a
+      - 🇸🇬 标准 专线 狮城 02-a
+      - 🇸🇬 标准 专线 狮城 03-a
+      - 🇺🇸 标准 专线 美国 01-a
+      - 🇺🇸 标准 专线 美国 02-a
+      - 🇺🇸 标准 专线 美国 03-a
+      - 🇺🇸 标准 专线 美国 04-a
+      - 🇺🇸 标准 专线 美国 05-a
+      - 🇺🇸 标准 专线 美国 06-a
+      - 🇰🇷 标准 专线 韩国 01-a
+      - 🇯🇵 标准 专线 日本 01-a
+      - 🇯🇵 标准 专线 日本 02-a
+      - 🇯🇵 标准 专线 日本 03-a
+      - 🇯🇵 标准 专线 日本 04-a
+      - 🇨🇳 标准 专线 台湾 01-a
+      - 🇬🇧 特殊 专线 伦敦 01-a
+      - 🇬🇧 特殊 专线 伦敦 02-a
+      - 🇩🇪 特殊 专线 德国 01-a
+      - 🇩🇪 特殊 专线 德国 02-a
+      - 🇧🇷 特殊 专线 巴西 01-a
+      - 🇨🇦 特殊 专线 加拿大 01-a
+      - 🇨🇦 特殊 专线 加拿大 02-a
+      - 🇹🇷 特殊 专线 土耳其 01-a
+      - 🇹🇷 特殊 专线 土耳其 02-a
+      - 🇹🇭 特殊 专线 泰国-a
+      - 🇻🇳 特殊 专线 越南-a
+      - 🇮🇳 特殊 专线 印度-a
+      - 🇦🇺 特殊 专线 悉尼-a
+      - 🇦🇪 特殊 专线 迪拜-a
+      - 🇫🇷 特殊 专线 法国-a
+      - 🇳🇱 特殊 专线 荷兰-a
+      - 🇮🇩 特殊 专线 印尼-a
+      - 🇪🇬 特殊 专线 埃及-a
+      - 🇵🇭 特殊 专线 菲律宾-a
+      - 🇮🇹 特殊 专线 意大利-a
+      - 🇪🇸 特殊 专线 西班牙-a
+      - 🇭🇺 特殊 专线 匈牙利-a
+      - 🇮🇱 特殊 专线 以色列-a
+      - 🇺🇦 特殊 专线 乌克兰-a
+      - 🇷🇺 特殊 专线 俄罗斯-a
+      - 🇲🇾 特殊 专线 马来西亚-a
+      - 🇯🇵 特殊 专线 尼日利亚-a
+      - 🇵🇰 特殊 专线 巴基斯坦-a
+      - 🇲🇩 特殊 专线 摩尔多瓦-a
+      - 🇦🇷 购物 专线 阿根廷-a
+  - name: 🤖️ 自动选择服务器2
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 加拿大 高速 cdn 1
+      - 日本 高速 cdn 1
+      - 新加坡 高速 cdn 1
+      - 美国 高速 cdn 1
+      - 香港 01（HKT）
+      - 香港 02（HKT）
+      - 日本 樱花 新协议
+      - 香港 新协议
+      - 日本 aws 新协议
+      - 美国 新协议(GPT优化)
+      - 新加坡 AWS
+rules:
+  - DOMAIN-KEYWORD,chatgpt,新加坡 AWS
+  - DOMAIN,bard.google.com,新加坡 AWS
+  - DOMAIN-SUFFIX,awesomescreenshot.com,新加坡 AWS
+  - DOMAIN-SUFFIX,facebook.net,新加坡 AWS
+  - DOMAIN-SUFFIX,openai.com,新加坡 AWS
+  - DOMAIN-SUFFIX,openai.cn,新加坡 AWS
+  - DOMAIN-SUFFIX,licdn.com,新加坡 AWS
+  - DOMAIN-SUFFIX,linkedin.com,新加坡 AWS
+  - DOMAIN-SUFFIX,yotpo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,youtube-nocookie.com,🤖️ 自动选择服务器
+  - DOMAIN,pagefly.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vanpowers.bike,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,crisp.chat,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,naukri.com,🤖️ 自动选择服务器
+  - DOMAIN,pagespeed.web.dev,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yeedi.com,🤖️ 自动选择服务器
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,betafpv.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zendesk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zdassets.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,intercomassets,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,intercomcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,intercom.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,parcelpanel.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,*.lan,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,dns.msftncsi.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,www.msftncsi.com,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,www.msftconnecttest.com,DIRECT,no-resolve
+  - DOMAIN-KEYWORD,trackingmore,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,shopify,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,v2ex,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,parcelpanel.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zoho.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopify.dev,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zohocdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,stripecdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cloudflare.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,archive.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,myshopify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopifycdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopifycloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopifysvc.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,figma.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,stackoverflow.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sstatic.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,scorecardresearch.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,github.dev,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,azureedge.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vsassets.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,blobstore.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,itsliveradio.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aodp-ssl.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,audio.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,1drv,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,microsoft,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aadrm.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,acompli.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,acompli.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aka.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,akadns.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aspnetcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,assets-yammer.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,azure.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,azure.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,azureedge.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,azurerms.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bing.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cloudapp.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cloudappsecurity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,edgesuite.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gfx.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hotmail.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,live.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,live.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,lync.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msappproxy.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msauth.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msauthimages.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msecnd.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msedge.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msft.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msftauth.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msftauthimages.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msftidentity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msidentity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msocdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,msocsp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mstea.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,o365weve.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,oaspapps.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,office.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,office.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,office365.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,officeppe.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,omniroot.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,onedrive.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,onenote.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,onenote.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,onestore.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,outlook.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,outlookmobile.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,phonefactor.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,public-trust.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sfbassets.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sfx.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sharepoint.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sharepointonline.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,skype.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,skypeassets.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,skypeforbusiness.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,staffhub.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,svc.ms,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sway-cdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sway-extensions.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sway.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,trafficmanager.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uservoice.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,virtualearth.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,visualstudio.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,windows-ppe.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,windows.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,windows.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,windowsazure.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,windowsupdate.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wunderlist.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yammer.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yammerusercontent.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,myshopify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,teambition.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ordertracking.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,trackru.ru,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tracktry.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uppercommerce.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,giraffly.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,seoant.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,giraffly.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dropshipman.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,parcelpanel.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,omnisend.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,openstreetmap.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,trackingmore.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopify.cn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uppercommerce.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,intercom.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,intercom.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mailgun.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wordpress.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,etranslate.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,etranslate.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sealapps.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,langwill.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,willdesk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,loloyal.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sealapps.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vstar.app,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sealapps.com,🤖️ 自动选择服务器
+  - DOMAIN,app.adjust.com,DIRECT
+  - DOMAIN,bdtj.tagtic.cn,DIRECT
+  - DOMAIN,log.mmstat.com,DIRECT
+  - DOMAIN,sycm.mmstat.com,DIRECT
+  - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+  - DOMAIN,dl.google.com,DIRECT
+  - DOMAIN,mtalk.google.com,DIRECT
+  - DOMAIN,livew.l.qq.com,DIRECT
+  - DOMAIN,vd.l.qq.com,DIRECT
+  - DOMAIN,analytics.strava.com,DIRECT
+  - DOMAIN,msg.umeng.com,DIRECT
+  - DOMAIN,msg.umengcloud.com,DIRECT
+  - DOMAIN-SUFFIX,himalaya.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,deezer.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dzcdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,joox.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,jooxweb-api,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kkbox.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kkbox.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kfs.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pandora.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,p-cdn.us,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sndcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,soundcloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pscdn.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,scdn.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,spotify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,spoti.fi,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,spotify.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,-spotify-com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tidal.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abema.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abema.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ameba.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hayabusa.io,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,abematv.akamaized.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,c4assets.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,channel4.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aiv-cdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aiv-delivery.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,amazonvideo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,primevideo.com,🤖️ 自动选择服务器
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,d25xi40x97liuc.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,avoddashs,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tv.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,hls.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,hls-amt.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,play-edge.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bahamut.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gamer.com.tw,🤖️ 自动选择服务器
+  - DOMAIN,gamer-cds.cdn.hinet.net,🤖️ 自动选择服务器
+  - DOMAIN,gamer2-cds.cdn.hinet.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bbc.co.uk,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bbci.co.uk,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,bbcfmt,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,uk-live,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dazn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dazn-api.com,🤖️ 自动选择服务器
+  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,voddazn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,disney-plus.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,disneyplus.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dssott.com,🤖️ 自动选择服务器
+  - DOMAIN,cdn.registerdisney.go.com,🤖️ 自动选择服务器
+  - DOMAIN,global.edge.bamgrid.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dmm.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dmm.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dmm-extension.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,encoretvb.com,🤖️ 自动选择服务器
+  - DOMAIN,edge.api.brightcove.com,🤖️ 自动选择服务器
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fox.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,foxdcg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,theplatform.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uplynk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,foxplus.com,🤖️ 自动选择服务器
+  - DOMAIN,cdn-fox-networks-group-green.akamaized.net,🤖️ 自动选择服务器
+  - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,foxsports01-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,foxsports02-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,foxsports03-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,staticasiafox.akamaized.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbogo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbonow.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbomax.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbogoasia.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbogoasia.hk,🤖️ 自动选择服务器
+  - DOMAIN,bcbolthboa-a.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,players.brightcove.net,🤖️ 自动选择服务器
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN,dai3fd1oh325y.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN,hboasia1-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,hboasia2-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,hboasia3-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,hboasia4-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,hboasia5-i.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,5itv.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ocnttv.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hulu.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,huluim.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hulustream.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,happyon.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hjholdings.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hulu.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,itv.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,itvstatic.com,🤖️ 自动选择服务器
+  - DOMAIN,itvpnpmobile-a.akamaihd.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kktv.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kktv.me,🤖️ 自动选择服务器
+  - DOMAIN,kktv-theater.kk.stream,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,linetv.tw,🤖️ 自动选择服务器
+  - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,litv.tv,🤖️ 自动选择服务器
+  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,channel5.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,my5.tv,🤖️ 自动选择服务器
+  - DOMAIN,d349g9zuie06uo.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mytvsuper.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tvb.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflix.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflix.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nflxext.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nflximg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nflximg.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nflxso.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nflxvideo.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🤖️ 自动选择服务器
+  - IP-CIDR,23.246.0.0/18,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,37.77.184.0/21,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,45.57.0.0/17,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,64.120.128.0/17,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,66.197.128.0/17,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,108.175.32.0/20,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,192.173.64.0/18,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,198.38.96.0/19,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,198.45.48.0/20,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,34.210.42.111/32,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,52.89.124.203/32,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,54.148.37.5/32,🤖️ 自动选择服务器,no-resolve
+  - DOMAIN-SUFFIX,dmc.nico,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nicovideo.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nimg.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,socdm.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nowe.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nowestatic.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pbs.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,phncdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,phprcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pornhub.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pornhubpremium.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,skyking.com.tw,🤖️ 自动选择服务器
+  - DOMAIN,hamifans.emome.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,byteoversea.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ibytedtos.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ipstatp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,muscdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,musical.ly,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tiktok.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tiktokcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tiktokv.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,-tiktokcdn-com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,jtvnw.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ttvnw.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twitch.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twitchcdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,viu.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,viu.tv,🤖️ 自动选择服务器
+  - DOMAIN,api.viu.now.com,🤖️ 自动选择服务器
+  - DOMAIN,d1k2us671qcoau.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,googlevideo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,youtube.com,🤖️ 自动选择服务器
+  - DOMAIN,youtubei.googleapis.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,acg.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,acgvideo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,b23.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,biliapi.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,biliapi.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bilibili.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,biligame.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,biligame.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bilivideo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hdslb.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,im9.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,smtcdns.net,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,qiyi,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,qy.net,🤖️ 自动选择服务器
+  - IP-CIDR,101.227.0.0/16,🤖️ 自动选择服务器
+  - IP-CIDR,101.224.0.0/13,🤖️ 自动选择服务器
+  - IP-CIDR,119.176.0.0/12,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,api.mob.app.letv.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,v.smtcdns.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vv.video.qq.com,🤖️ 自动选择服务器
+  - IP-CIDR,106.11.0.0/16,🤖️ 自动选择服务器,no-resolve
+  - DOMAIN-SUFFIX,t.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tdesktop.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegra.ph,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegram.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegram.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telesco.pe,🤖️ 自动选择服务器
+  - IP-CIDR,91.108.4.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.8.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.12.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.16.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.56.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,149.154.160.0/20,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🤖️ 自动选择服务器,no-resolve
+  - DOMAIN,testflight.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,appspot.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,blogger.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,getoutline.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gvt0.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gvt1.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gvt3.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,google,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,blogspot,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,onedrive.live.com,🤖️ 自动选择服务器
+  - DOMAIN,az416426.vo.msecnd.net,🤖️ 自动选择服务器
+  - DOMAIN,az668014.vo.msecnd.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cdninstagram.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fb.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fb.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fbaddins.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fbcdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fbsbx.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fbworkmail.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,instagram.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,m.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,messenger.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,oculus.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,oculuscdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rocksdb.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,whatsapp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,whatsapp.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pscp.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,periscope.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,t.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twimg.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twimg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twitpic.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twitter.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vine.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegra.ph,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegram.org,🤖️ 自动选择服务器
+  - IP-CIDR,91.108.4.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.8.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.12.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.16.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,91.108.56.0/22,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,149.154.160.0/20,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,🤖️ 自动选择服务器,no-resolve
+  - DOMAIN-SUFFIX,line.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,line-apps.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,line-scdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,naver.jp,🤖️ 自动选择服务器
+  - IP-CIDR,103.2.30.0/23,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,125.209.208.0/20,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,147.92.128.0/17,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,203.104.144.0/21,🤖️ 自动选择服务器,no-resolve
+  - DOMAIN,a248.e.akamai.net,🤖️ 自动选择服务器
+  - DOMAIN,a771.dscq.akamai.net,🤖️ 自动选择服务器
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,4shared.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,9cache.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,9gag.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abc.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abc.net.au,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abebooks.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,amazon.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ao3.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apigee.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apkcombo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apk-dl.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apkfind.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apkmirror.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apkmonk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apkpure.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aptoide.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,archive.is,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,archive.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,archiveofourown.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,archiveofourown.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,arte.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,artstation.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,arukas.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ask.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,avg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,avgle.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,badoo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bandwagonhost.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bangkokpost.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bbc.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,behance.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bibox.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,biggo.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,binance.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bit.ly,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bitcointalk.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bitfinex.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bitmex.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bit-z.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bloglovin.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bloomberg.cn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bloomberg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,blubrry.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,book.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,booklive.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,books.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,boslife.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,box.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,brave.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,businessinsider.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,buzzfeed.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bwh1.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,castbox.fm,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cbc.ca,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cdw.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,change.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,channelnewsasia.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ck101.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,clarionproject.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cloudcone.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,clyp.it,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cna.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,comparitech.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,conoha.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,crucial.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cts.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cw.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cyberctm.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dailymotion.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dailyview.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,daum.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,daumcdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dcard.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,deadline.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,deepdiscount.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,depositphotos.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,deviantart.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,disconnect.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,discordapp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,discordapp.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,disqus.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dlercloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dmhy.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dns2go.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dowjones.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dropbox.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dropboxapi.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dropboxusercontent.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,duckduckgo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,duyaoss.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dw.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dynu.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,earthcam.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ebookservice.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,economist.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,edgecastcdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,edu,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,edx-cdn.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,elpais.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,enanyang.my,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,encyclopedia.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,esoir.be,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,etherscan.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,euronews.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,evozi.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,exblog.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,feeder.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,feedly.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,feedx.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,firech.at,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,flickr.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,flipboard.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,flitto.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,foreignpolicy.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,fortawesome.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,freetls.fastly.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,friday.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ft.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ftchinese.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ftimg.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gate.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,getlantern.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,getsync.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,github.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,github.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,githubusercontent.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,globalvoices.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,goo.ne.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,goodreads.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gov,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gov.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,greatfire.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gumroad.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hbg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,heroku.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hightail.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hk01.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hkbf.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hkbookcity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hkej.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hket.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hootsuite.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hudson.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,huffpost.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,hyread.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ibtimes.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,i-cable.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,icij.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,icoco.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,imgur.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,independent.co.uk,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,initiummall.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,inoreader.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,insecam.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ipfs.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,issuu.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,istockphoto.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,japantimes.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,jiji.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,jinx.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,jkforum.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,joinmastodon.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,justmysocks.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,justpaste.it,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kadokawa.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kakao.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kakaocorp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kik.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kingkong.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,knowyourmeme.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kobo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kobobooks.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,kodingen.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,lemonde.fr,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,lepoint.fr,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,lihkg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,limbopro.xyz,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,listennotes.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,livestream.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,logimg.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,logmein.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mail.ru,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mailchimp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,marc.info,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,matters.news,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,maying.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,medium.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mega.nz,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mergersandinquisitions.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mil,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mingpao.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mixi.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mobile01.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mubi.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,myspace.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,myspacecdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nanyang.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nationalinterest.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,naver.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nbcnews.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ndr.de,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,neowin.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,newstapa.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nexitally.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nhk.or.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nii.ac.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nikkei.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nitter.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nofile.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,notion.so,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,now.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nrk.no,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nuget.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nyaa.si,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nyt.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytchina.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytcn.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytco.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytimes.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytimg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytlog.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,nytstyle.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ok.ru,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,okex.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,on.cc,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,orientaldaily.com.my,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,overcast.fm,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,paltalk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,parsevideo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pawoo.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pbxes.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pcdvd.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pchome.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pcloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,peing.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,picacomic.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pinimg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pixiv.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,player.fm,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,plurk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,po18.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,potato.im,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,potatso.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,prism-break.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,proxifier.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pt.im,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pts.org.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pubu.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pubu.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,pureapk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,quora.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,quoracdn.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,qz.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,radio.garden,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rakuten.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rarbgprx.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,reabble.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,readingtimes.com.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,readmoo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,redbubble.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,redd.it,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,reddit.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,redditmedia.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,resilio.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,reuters.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,reutersmedia.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rfi.fr,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rixcloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,roadshow.hk,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,rsshub.app,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,scmp.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,scribd.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,seatguru.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shadowsocks.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shindanmaker.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopee.tw,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,sina.com.hk,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,slideshare.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,softfamous.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,spiegel.de,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ssrcloud.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,startpage.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,steamcommunity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,steemit.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,steemitwallet.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,straitstimes.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,streema.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,t66y.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tapatalk.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,teco-hk.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,teco-mo.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,teddysun.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,textnow.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,theguardian.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,theinitium.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,themoviedb.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,thetvdb.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,time.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tineye.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tiny.cc,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tinyurl.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,torproject.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tumblr.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,turbobit.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tutanota.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tvboxnow.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,udn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,unseen.is,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,upmedia.mg,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uptodown.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,urbandictionary.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ustream.tv,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,uwants.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,v2fly.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,v2ray.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,viber.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,videopress.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vimeo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,voachinese.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,voanews.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,voxer.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,vzw.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,w3schools.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,washingtonpost.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wattpad.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,whoer.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikileaks.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikimapia.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikimedia.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikinews.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikipedia.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikiquote.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wikiwand.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,winudf.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wire.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wordpress.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,workflow.is,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,worldcat.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wsj.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,wsj.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xhamster.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xn--90wwvt03e.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xnxx.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,xvideos.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yahoo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yandex.ru,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ycombinator.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yesasia.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yes-news.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yomiuri.co.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,you-get.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zaobao.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zb.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zello.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zeronet.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zoom.us,🤖️ 自动选择服务器
+  - DOMAIN,cc.tvbs.com.tw,🤖️ 自动选择服务器
+  - DOMAIN,ocsp.int-x3.letsencrypt.org,🤖️ 自动选择服务器
+  - DOMAIN,payments-jp.amazon.com,🤖️ 自动选择服务器
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN,search.avira.com,🤖️ 自动选择服务器
+  - DOMAIN,us.weibo.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,jav,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,pinterest,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,porn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,abc.xyz,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,advertisercommunity.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ampproject.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,android.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,androidify.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dialogflow.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,autodraw.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,capitalg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,certificate-transparency.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,chrome.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,chromeexperiments.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,chromestatus.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,chromium.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,creativelab5.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,debug.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,deepmind.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,firebaseio.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,getmdl.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ggpht.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gmail.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gmodules.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,godoc.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,golang.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gstatic.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gv.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,gwtproject.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,itasoftware.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,madewithcode.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,material.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,page.link,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,polymer-project.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,admin.recaptcha.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,recaptcha.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shattered.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,synergyse.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telephony.goog,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tensorflow.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tfhub.dev,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tiltbrush.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,waveprotocol.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,waymo.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,webmproject.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,webrtc.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,whatbrowser.org,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,widevine.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,x.company,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,youtu.be,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,yt.be,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ytimg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,t.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,tdesktop.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telegram.me,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,telesco.pe,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.br,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.design,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.hu,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.in,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.nl,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebook.se,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,facebookmail.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,noxinfluencer.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,smartmailcloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,weebly.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,twitter.jp,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,appsto.re,🤖️ 自动选择服务器
+  - DOMAIN,books.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,apps.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,api-glb-sea.smoot.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,lookup-api.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,smoot.apple.com,🤖️ 自动选择服务器
+  - DOMAIN,beta.music.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,bing.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cccat.io,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,dubox.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,duboxcdn.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,ifixit.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mangakakalot.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,shopeemobile.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,buy.itunes.apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cloudcone.com.cn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,inkbunny.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,metapix.net,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,s3.amazonaws.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,zaobao.com.sg,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,aaplimg.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apple.co,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apple.com.cn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,appstore.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,cdn-apple.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,icloud.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,icloud.com.cn,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,icloud-content.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,me.com,🤖️ 自动选择服务器
+  - DOMAIN-SUFFIX,mzstatic.com,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,apple.com.akadns.net,🤖️ 自动选择服务器
+  - DOMAIN-KEYWORD,icloud.com.akadns.net,🤖️ 自动选择服务器
+  - IP-CIDR,17.0.0.0/8,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,63.92.224.0/19,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,65.199.22.0/23,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,139.178.128.0/18,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,144.178.0.0/19,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,192.35.50.0/24,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,198.183.17.0/24,🤖️ 自动选择服务器,no-resolve
+  - IP-CIDR,205.180.175.0/24,🤖️ 自动选择服务器,no-resolve
