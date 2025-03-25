@@ -1,0 +1,142 @@
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 223.5.5.5
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+- name: vless-reality-vision-s6-gbdg1989               
+  type: vless
+  server: 128.204.223.100                           
+  port: 19376                                
+  uuid: 75abe43e-4a59-4015-9f07-0db7363c0f72   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: gbdg1989.serv00.net                 
+  reality-opts: 
+    public-key: YaKCr4Hg4SQoueQX7sapyAC1my7JrHDBhjDtL5lGJ34                      
+  client-fingerprint: chrome                  
+
+- name: vmess-ws-s6-gbdg1989                         
+  type: vmess
+  server: 128.204.223.100                       
+  port: 56996                                     
+  uuid: 75abe43e-4a59-4015-9f07-0db7363c0f72       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: www.bing.com                    
+  ws-opts:
+    path: "/75abe43e-4a59-4015-9f07-0db7363c0f72-vm"                             
+    headers:
+      Host: www.bing.com                     
+
+- name: hysteria2-s6-gbdg1989                            
+  type: hysteria2                                      
+  server: 128.204.223.100                               
+  port: 58785                                
+  password: 75abe43e-4a59-4015-9f07-0db7363c0f72                          
+  alpn:
+    - h3
+  sni: www.bing.com                               
+  skip-cert-verify: true
+  fast-open: true
+
+- name: vmess-tls-argo-s6-gbdg1989                         
+  type: vmess
+  server: icook.hk                        
+  port: 8443                                     
+  uuid: 75abe43e-4a59-4015-9f07-0db7363c0f72       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  servername: serv00-06.kudog.xyz                    
+  ws-opts:
+    path: "/75abe43e-4a59-4015-9f07-0db7363c0f72-vm"                             
+    headers:
+      Host: serv00-06.kudog.xyz
+
+- name: vmess-argo-s6-gbdg1989                         
+  type: vmess
+  server: icook.hk                        
+  port: 8880                                     
+  uuid: 75abe43e-4a59-4015-9f07-0db7363c0f72       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: serv00-06.kudog.xyz                   
+  ws-opts:
+    path: "/75abe43e-4a59-4015-9f07-0db7363c0f72-vm"                             
+    headers:
+      Host: serv00-06.kudog.xyz 
+
+proxy-groups:
+- name: Balance
+  type: load-balance
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  strategy: round-robin
+  proxies:
+    - vless-reality-vision-s6-gbdg1989                              
+    - vmess-ws-s6-gbdg1989
+    - hysteria2-s6-gbdg1989
+    - vmess-tls-argo-s6-gbdg1989
+    - vmess-argo-s6-gbdg1989
+
+- name: Auto
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies:
+    - vless-reality-vision-s6-gbdg1989                             
+    - vmess-ws-s6-gbdg1989
+    - hysteria2-s6-gbdg1989
+    - vmess-tls-argo-s6-gbdg1989
+    - vmess-argo-s6-gbdg1989
+    
+- name: Select
+  type: select
+  proxies:
+    - Balance                                         
+    - Auto
+    - DIRECT
+    - vless-reality-vision-s6-gbdg1989                              
+    - vmess-ws-s6-gbdg1989
+    - hysteria2-s6-gbdg1989
+    - vmess-tls-argo-s6-gbdg1989
+    - vmess-argo-s6-gbdg1989
+rules:
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Select
+  
