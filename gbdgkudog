@@ -6,7 +6,7 @@ log-level: info
 external-controller: :60919
 proxies:
   - {name: 🇭🇰 0-香港Netflix, server: reverie.yogurt8.us, port: 43125, type: ssr, cipher: chacha20-ietf, password: sGWdzYDx5J, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - name: 🇨🇳 3-台湾Kudog免费提供中转
+  - name: 🇨🇳 3-台湾中转
     server: anactorinstanceofjudgingsomethin.suannai.us
     port: 43125
     type: ssr
@@ -16,7 +16,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇺🇸 21美国Kudog免费提供中转
+  - name: 🇺🇸 21美国中转
     server: 3-methyl-2-oxobutanoate.yogurt8.us
     port: 43125
     type: ssr
@@ -26,7 +26,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: 3-methyl-2-oxobutanoate.yogurt8.us
-  - name: 🇨🇳 4-台湾Kudog免费提供中转
+  - name: 🇨🇳 4-台湾中转
     server: haveforgotten.godeove.xyz
     port: 43125
     type: ssr
@@ -36,7 +36,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇯🇵 15日本Kudog免费提供中转
+  - name: 🇯🇵 15日本中转
     server: set.suannai.us
     port: 43125
     type: ssr
@@ -46,7 +46,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: set.suannai.us
-  - name: 🇨🇳 0-台湾Kudog免费提供中转
+  - name: 🇨🇳 0-台湾中转
     server: reverie.yogurt8.us
     port: 43125
     type: ssr
@@ -56,7 +56,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇭🇰 8-香港Kudog免费提供中转
+  - name: 🇭🇰 8-香港中转
     server: petrichor.yogurt8.us
     port: 43125
     type: ssr
@@ -66,7 +66,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇯🇵 16日本Kudog免费提供中转
+  - name: 🇯🇵 16日本中转
     server: get.suannai.us
     port: 43125
     type: ssr
@@ -76,7 +76,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: get.suannai.us
-  - name: 🇯🇵 17日本Kudog免费提供中转
+  - name: 🇯🇵 17日本中转
     server: rec.suannai.us
     port: 43125
     type: ssr
@@ -86,7 +86,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: rec.suannai.us
-  - name: 🇯🇵 18日本Kudog免费提供中转
+  - name: 🇯🇵 18日本中转
     server: team.suannai.us
     port: 43125
     type: ssr
@@ -96,7 +96,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: team.suannai.us
-  - name: 🇨🇳 5-台湾Kudog免费提供中转
+  - name: 🇨🇳 5-台湾中转
     server: mei4.yogurt8.us
     port: 43125
     type: ssr
@@ -106,7 +106,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇭🇰 6-香港Kudog免费提供中转
+  - name: 🇭🇰 6-香港中转
     server: mei2-aksjyiukj.yogurt8.us
     port: 43125
     type: ssr
@@ -116,7 +116,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: mei2-aksjyiukj.yogurt8.us
-  - name: 🇭🇰 7-香港Kudog免费提供中转
+  - name: 🇭🇰 7-香港中转
     server: records.godeove.xyz
     port: 43125
     type: ssr
@@ -126,7 +126,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇨🇳 14-台湾Kudog免费提供中转
+  - name: 🇨🇳 14-台湾中转
     server: here.suannai.us
     port: 43125
     type: ssr
@@ -136,7 +136,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: here.suannai.us
-  - name: 🇭🇰 9-香港Kudog免费提供中转
+  - name: 🇭🇰 9-香港中转
     server: sisiguraduhin.godeove.xyz
     port: 43125
     type: ssr
@@ -146,7 +146,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: sisiguraduhin.godeove.xyz
-  - name: 🇺🇸 19美国Kudog免费提供中转
+  - name: 🇺🇸 19美国中转
     server: lovemeansneverhaving.godeove.xyz
     port: 43125
     type: ssr
@@ -156,7 +156,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: lovemeansneverhaving.godeove.xyz
-  - name: 🇨🇳 13-台湾Kudog免费提供中转
+  - name: 🇨🇳 13-台湾中转
     server: subscription.suannai.us
     port: 43125
     type: ssr
@@ -166,7 +166,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: subscription.suannai.us
-  - name: 🇨🇳 1-台湾Kudog免费提供中转
+  - name: 🇨🇳 1-台湾中转
     server: nfx9.godeove.xyz
     port: 43125
     type: ssr
@@ -176,7 +176,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: mei10-dskaluiekkjh.yogurt8.us
-  - name: 🇭🇰 11-香港Kudog免费提供中转
+  - name: 🇭🇰 11-香港中转
     server: insomnia.yogurt8.us
     port: 43125
     type: ssr
@@ -186,7 +186,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: insomnia.yogurt8.us
-  - name: 🇨🇳 2-台湾Kudog免费提供中转
+  - name: 🇨🇳 2-台湾中转
     server: csilicovolcanoconiosis.godeove.xyz
     port: 43125
     type: ssr
@@ -196,7 +196,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇨🇳 12-台湾Kudog免费提供中转
+  - name: 🇨🇳 12-台湾中转
     server: cool.suannai.us
     port: 43125
     type: ssr
@@ -206,7 +206,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇭🇰 10-香港Kudog免费提供中转
+  - name: 🇭🇰 10-香港中转
     server: god.godeove.xyz
     port: 43125
     type: ssr
@@ -216,7 +216,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: shenghesai-d98iu8di.yogurt8.us
-  - name: 🇺🇸 20美国Kudog免费提供中转
+  - name: 🇺🇸 20美国中转
     server: cancelsubscription.godeove.xyz
     port: 43125
     type: ssr
@@ -226,7 +226,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: ""
     obfs-param: ""
-  - name: 🇭🇰 日用 Kudog免费提供专线 香港 [0.2]
+  - name: 🇭🇰 日用 专线 香港 [0.2]
     server: aexgzbgp01.114837322.xyz
     port: 14391
     type: trojan
@@ -234,7 +234,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 日用 Kudog免费提供专线 狮城 [0.2]
+  - name: 🇸🇬 日用 专线 狮城 [0.2]
     server: aexgzbgp01.114837322.xyz
     port: 14392
     type: trojan
@@ -242,7 +242,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 日用 Kudog免费提供专线 日本 [0.2]
+  - name: 🇯🇵 日用 专线 日本 [0.2]
     server: aexshbgp01.114837322.xyz
     port: 14393
     type: trojan
@@ -250,7 +250,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 日用 Kudog免费提供专线 美国 [0.2]
+  - name: 🇺🇸 日用 专线 美国 [0.2]
     server: aexshbgp01.114837322.xyz
     port: 14394
     type: trojan
@@ -258,7 +258,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 01
+  - name: 🇭🇰 高级 专线 香港 01
     server: aexgzbgp01.114837322.xyz
     port: 14401
     type: trojan
@@ -266,7 +266,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 02
+  - name: 🇭🇰 高级 专线 香港 02
     server: aexgzbgp01.114837322.xyz
     port: 14402
     type: trojan
@@ -274,7 +274,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 03
+  - name: 🇭🇰 高级 专线 香港 03
     server: aexgzbgp01.114837322.xyz
     port: 14403
     type: trojan
@@ -282,7 +282,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 04
+  - name: 🇭🇰 高级 专线 香港 04
     server: aexgzbgp01.114837322.xyz
     port: 14404
     type: trojan
@@ -290,7 +290,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 05
+  - name: 🇭🇰 高级 专线 香港 05
     server: aexgzbgp01.114837322.xyz
     port: 14405
     type: trojan
@@ -298,7 +298,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 06
+  - name: 🇭🇰 高级 专线 香港 06
     server: aexgzbgp01.114837322.xyz
     port: 14406
     type: trojan
@@ -306,7 +306,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 07
+  - name: 🇭🇰 高级 专线 香港 07
     server: aexgzbgp01.114837322.xyz
     port: 14407
     type: trojan
@@ -314,7 +314,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 高级 Kudog免费提供专线 香港 08
+  - name: 🇭🇰 高级 专线 香港 08
     server: aexgzbgp01.114837322.xyz
     port: 14408
     type: trojan
@@ -322,7 +322,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 高级 Kudog免费提供专线 狮城 01
+  - name: 🇸🇬 高级 专线 狮城 01
     server: aexgzbgp01.114837322.xyz
     port: 14411
     type: trojan
@@ -330,7 +330,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 高级 Kudog免费提供专线 狮城 02
+  - name: 🇸🇬 高级 专线 狮城 02
     server: aexgzbgp01.114837322.xyz
     port: 14412
     type: trojan
@@ -338,7 +338,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 高级 Kudog免费提供专线 狮城 03
+  - name: 🇸🇬 高级 专线 狮城 03
     server: aexgzbgp01.114837322.xyz
     port: 14413
     type: trojan
@@ -346,7 +346,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 高级 Kudog免费提供专线 狮城 04
+  - name: 🇸🇬 高级 专线 狮城 04
     server: aexgzbgp01.114837322.xyz
     port: 14414
     type: trojan
@@ -354,7 +354,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 高级 Kudog免费提供专线 狮城 05
+  - name: 🇸🇬 高级 专线 狮城 05
     server: aexgzbgp01.114837322.xyz
     port: 14415
     type: trojan
@@ -362,7 +362,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 01
+  - name: 🇺🇸 高级 专线 美国 01
     server: aexshbgp01.114837322.xyz
     port: 14431
     type: trojan
@@ -370,7 +370,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 02
+  - name: 🇺🇸 高级 专线 美国 02
     server: aexshbgp01.114837322.xyz
     port: 14432
     type: trojan
@@ -378,7 +378,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 03
+  - name: 🇺🇸 高级 专线 美国 03
     server: aexshbgp01.114837322.xyz
     port: 14433
     type: trojan
@@ -386,7 +386,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 04
+  - name: 🇺🇸 高级 专线 美国 04
     server: aexshbgp01.114837322.xyz
     port: 14434
     type: trojan
@@ -394,7 +394,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 05
+  - name: 🇺🇸 高级 专线 美国 05
     server: aexshbgp01.114837322.xyz
     port: 14435
     type: trojan
@@ -402,7 +402,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 06
+  - name: 🇺🇸 高级 专线 美国 06
     server: aexshbgp01.114837322.xyz
     port: 14436
     type: trojan
@@ -410,7 +410,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 07
+  - name: 🇺🇸 高级 专线 美国 07
     server: aexshbgp01.114837322.xyz
     port: 14437
     type: trojan
@@ -418,7 +418,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 08
+  - name: 🇺🇸 高级 专线 美国 08
     server: aexshbgp01.114837322.xyz
     port: 14438
     type: trojan
@@ -426,7 +426,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 09
+  - name: 🇺🇸 高级 专线 美国 09
     server: aexshbgp01.114837322.xyz
     port: 14439
     type: trojan
@@ -434,7 +434,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 高级 Kudog免费提供专线 美国 10
+  - name: 🇺🇸 高级 专线 美国 10
     server: aexshbgp01.114837322.xyz
     port: 14440
     type: trojan
@@ -442,7 +442,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇰🇷 高级 Kudog免费提供专线 韩国 01
+  - name: 🇰🇷 高级 专线 韩国 01
     server: aexshbgp01.114837322.xyz
     port: 14441
     type: trojan
@@ -450,7 +450,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇰🇷 高级 Kudog免费提供专线 韩国 02
+  - name: 🇰🇷 高级 专线 韩国 02
     server: aexshbgp01.114837322.xyz
     port: 14442
     type: trojan
@@ -458,7 +458,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇨🇳 高级 Kudog免费提供专线 台湾 01
+  - name: 🇨🇳 高级 专线 台湾 01
     server: aexgzbgp01.114837322.xyz
     port: 14451
     type: trojan
@@ -466,7 +466,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇨🇳 高级 Kudog免费提供专线 台湾 02
+  - name: 🇨🇳 高级 专线 台湾 02
     server: aexgzbgp01.114837322.xyz
     port: 14452
     type: trojan
@@ -474,7 +474,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 01
+  - name: 🇯🇵 高级 专线 日本 01
     server: aexshbgp01.114837322.xyz
     port: 14421
     type: trojan
@@ -482,7 +482,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 02
+  - name: 🇯🇵 高级 专线 日本 02
     server: aexshbgp01.114837322.xyz
     port: 14422
     type: trojan
@@ -490,7 +490,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 03
+  - name: 🇯🇵 高级 专线 日本 03
     server: aexshbgp01.114837322.xyz
     port: 14423
     type: trojan
@@ -498,7 +498,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 04
+  - name: 🇯🇵 高级 专线 日本 04
     server: aexshbgp01.114837322.xyz
     port: 14424
     type: trojan
@@ -506,7 +506,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 05
+  - name: 🇯🇵 高级 专线 日本 05
     server: aexshbgp01.114837322.xyz
     port: 14425
     type: trojan
@@ -514,7 +514,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 06
+  - name: 🇯🇵 高级 专线 日本 06
     server: aexshbgp01.114837322.xyz
     port: 14426
     type: trojan
@@ -522,7 +522,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 07
+  - name: 🇯🇵 高级 专线 日本 07
     server: aexshbgp01.114837322.xyz
     port: 14427
     type: trojan
@@ -530,7 +530,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 高级 Kudog免费提供专线 日本 08
+  - name: 🇯🇵 高级 专线 日本 08
     server: aexshbgp01.114837322.xyz
     port: 14428
     type: trojan
@@ -538,7 +538,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 标准 Kudog免费提供专线 香港 01
+  - name: 🇭🇰 标准 专线 香港 01
     server: aexgzbgp01.114837322.xyz
     port: 14301
     type: trojan
@@ -546,7 +546,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 标准 Kudog免费提供专线 香港 02
+  - name: 🇭🇰 标准 专线 香港 02
     server: aexgzbgp01.114837322.xyz
     port: 14302
     type: trojan
@@ -554,7 +554,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇰 标准 Kudog免费提供专线 香港 03
+  - name: 🇭🇰 标准 专线 香港 03
     server: aexgzbgp01.114837322.xyz
     port: 14303
     type: trojan
@@ -562,7 +562,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 标准 Kudog免费提供专线 狮城 01
+  - name: 🇸🇬 标准 专线 狮城 01
     server: aexgzbgp01.114837322.xyz
     port: 14311
     type: trojan
@@ -570,7 +570,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 标准 Kudog免费提供专线 狮城 02
+  - name: 🇸🇬 标准 专线 狮城 02
     server: aexgzbgp01.114837322.xyz
     port: 14312
     type: trojan
@@ -578,7 +578,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 标准 Kudog免费提供专线 狮城 03
+  - name: 🇸🇬 标准 专线 狮城 03
     server: aexgzbgp01.114837322.xyz
     port: 14313
     type: trojan
@@ -586,7 +586,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 01
+  - name: 🇺🇸 标准 专线 美国 01
     server: aexshbgp01.114837322.xyz
     port: 14331
     type: trojan
@@ -594,7 +594,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 02
+  - name: 🇺🇸 标准 专线 美国 02
     server: aexshbgp01.114837322.xyz
     port: 14332
     type: trojan
@@ -602,7 +602,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 03
+  - name: 🇺🇸 标准 专线 美国 03
     server: aexshbgp01.114837322.xyz
     port: 14333
     type: trojan
@@ -610,7 +610,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 04
+  - name: 🇺🇸 标准 专线 美国 04
     server: aexshbgp01.114837322.xyz
     port: 14334
     type: trojan
@@ -618,7 +618,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 05
+  - name: 🇺🇸 标准 专线 美国 05
     server: aexshbgp01.114837322.xyz
     port: 14335
     type: trojan
@@ -626,7 +626,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇸 标准 Kudog免费提供专线 美国 06
+  - name: 🇺🇸 标准 专线 美国 06
     server: aexshbgp01.114837322.xyz
     port: 14336
     type: trojan
@@ -634,7 +634,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇰🇷 标准 Kudog免费提供专线 韩国 01
+  - name: 🇰🇷 标准 专线 韩国 01
     server: aexshbgp01.114837322.xyz
     port: 14341
     type: trojan
@@ -642,7 +642,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 标准 Kudog免费提供专线 日本 01
+  - name: 🇯🇵 标准 专线 日本 01
     server: aexshbgp01.114837322.xyz
     port: 14321
     type: trojan
@@ -650,7 +650,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 标准 Kudog免费提供专线 日本 02
+  - name: 🇯🇵 标准 专线 日本 02
     server: aexshbgp01.114837322.xyz
     port: 14322
     type: trojan
@@ -658,7 +658,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 标准 Kudog免费提供专线 日本 03
+  - name: 🇯🇵 标准 专线 日本 03
     server: aexshbgp01.114837322.xyz
     port: 14323
     type: trojan
@@ -666,7 +666,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 标准 Kudog免费提供专线 日本 04
+  - name: 🇯🇵 标准 专线 日本 04
     server: aexshbgp01.114837322.xyz
     port: 14324
     type: trojan
@@ -674,7 +674,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇨🇳 标准 Kudog免费提供专线 台湾 01
+  - name: 🇨🇳 标准 专线 台湾 01
     server: aexgzbgp01.114837322.xyz
     port: 14351
     type: trojan
@@ -682,7 +682,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇬🇧 特殊 Kudog免费提供专线 伦敦 01
+  - name: 🇬🇧 特殊 专线 伦敦 01
     server: aexbjbgp01.114837322.xyz
     port: 14501
     type: trojan
@@ -690,7 +690,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇬🇧 特殊 Kudog免费提供专线 伦敦 02
+  - name: 🇬🇧 特殊 专线 伦敦 02
     server: aexbjbgp01.114837322.xyz
     port: 14502
     type: trojan
@@ -698,7 +698,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇩🇪 特殊 Kudog免费提供专线 德国 01
+  - name: 🇩🇪 特殊 专线 德国 01
     server: aexbjbgp01.114837322.xyz
     port: 14500
     type: trojan
@@ -706,7 +706,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇩🇪 特殊 Kudog免费提供专线 德国 02
+  - name: 🇩🇪 特殊 专线 德国 02
     server: aexbjbgp01.114837322.xyz
     port: 14507
     type: trojan
@@ -714,7 +714,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇧🇷 特殊 Kudog免费提供专线 巴西 01
+  - name: 🇧🇷 特殊 专线 巴西 01
     server: aexshbgp01.114837322.xyz
     port: 14505
     type: trojan
@@ -722,7 +722,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇧🇷 特殊 Kudog免费提供专线 巴西 02
+  - name: 🇧🇷 特殊 专线 巴西 02
     server: aexshbgp01.114837322.xyz
     port: 14512
     type: trojan
@@ -730,7 +730,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇨🇦 特殊 Kudog免费提供专线 加拿大 01
+  - name: 🇨🇦 特殊 专线 加拿大 01
     server: aexshbgp01.114837322.xyz
     port: 14506
     type: trojan
@@ -738,7 +738,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇨🇦 特殊 Kudog免费提供专线 加拿大 02
+  - name: 🇨🇦 特殊 专线 加拿大 02
     server: aexshbgp01.114837322.xyz
     port: 14508
     type: trojan
@@ -746,7 +746,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇹🇷 特殊 Kudog免费提供专线 土耳其 01
+  - name: 🇹🇷 特殊 专线 土耳其 01
     server: aexbjbgp01.114837322.xyz
     port: 14498
     type: trojan
@@ -754,7 +754,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇹🇷 特殊 Kudog免费提供专线 土耳其 02
+  - name: 🇹🇷 特殊 专线 土耳其 02
     server: aexbjbgp01.114837322.xyz
     port: 14518
     type: trojan
@@ -762,7 +762,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇹🇭 特殊 Kudog免费提供专线 泰国
+  - name: 🇹🇭 特殊 专线 泰国
     server: aexgzbgp01.114837322.xyz
     port: 14461
     type: trojan
@@ -770,7 +770,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇻🇳 特殊 Kudog免费提供专线 越南
+  - name: 🇻🇳 特殊 专线 越南
     server: aexgzbgp01.114837322.xyz
     port: 14462
     type: trojan
@@ -778,7 +778,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇮🇳 特殊 Kudog免费提供专线 印度
+  - name: 🇮🇳 特殊 专线 印度
     server: aexgzbgp01.114837322.xyz
     port: 14494
     type: trojan
@@ -786,7 +786,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇦🇺 特殊 Kudog免费提供专线 悉尼
+  - name: 🇦🇺 特殊 专线 悉尼
     server: aexgzbgp01.114837322.xyz
     port: 14499
     type: trojan
@@ -794,7 +794,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇦🇪 特殊 Kudog免费提供专线 迪拜
+  - name: 🇦🇪 特殊 专线 迪拜
     server: aexgzbgp01.114837322.xyz
     port: 14503
     type: trojan
@@ -802,7 +802,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇫🇷 特殊 Kudog免费提供专线 法国
+  - name: 🇫🇷 特殊 专线 法国
     server: aexbjbgp01.114837322.xyz
     port: 14504
     type: trojan
@@ -810,7 +810,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇳🇱 特殊 Kudog免费提供专线 荷兰
+  - name: 🇳🇱 特殊 专线 荷兰
     server: aexbjbgp01.114837322.xyz
     port: 14513
     type: trojan
@@ -818,7 +818,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇮🇩 特殊 Kudog免费提供专线 印尼
+  - name: 🇮🇩 特殊 专线 印尼
     server: aexgzbgp01.114837322.xyz
     port: 14514
     type: trojan
@@ -826,7 +826,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇿🇦 特殊 Kudog免费提供专线 南非
+  - name: 🇿🇦 特殊 专线 南非
     server: aexgzbgp01.114837322.xyz
     port: 14515
     type: trojan
@@ -834,7 +834,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇪🇬 特殊 Kudog免费提供专线 埃及
+  - name: 🇪🇬 特殊 专线 埃及
     server: aexbjbgp01.114837322.xyz
     port: 14520
     type: trojan
@@ -842,7 +842,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇵🇭 特殊 Kudog免费提供专线 菲律宾
+  - name: 🇵🇭 特殊 专线 菲律宾
     server: aexgzbgp01.114837322.xyz
     port: 14491
     type: trojan
@@ -850,7 +850,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇮🇹 特殊 Kudog免费提供专线 意大利
+  - name: 🇮🇹 特殊 专线 意大利
     server: aexbjbgp01.114837322.xyz
     port: 14493
     type: trojan
@@ -858,7 +858,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇪🇸 特殊 Kudog免费提供专线 西班牙
+  - name: 🇪🇸 特殊 专线 西班牙
     server: aexbjbgp01.114837322.xyz
     port: 14492
     type: trojan
@@ -866,7 +866,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇭🇺 特殊 Kudog免费提供专线 匈牙利
+  - name: 🇭🇺 特殊 专线 匈牙利
     server: aexbjbgp01.114837322.xyz
     port: 14496
     type: trojan
@@ -874,7 +874,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇮🇱 特殊 Kudog免费提供专线 以色列
+  - name: 🇮🇱 特殊 专线 以色列
     server: aexbjbgp01.114837322.xyz
     port: 14509
     type: trojan
@@ -882,7 +882,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇺🇦 特殊 Kudog免费提供专线 乌克兰
+  - name: 🇺🇦 特殊 专线 乌克兰
     server: aexbjbgp01.114837322.xyz
     port: 14511
     type: trojan
@@ -890,7 +890,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇷🇺 特殊 Kudog免费提供专线 俄罗斯
+  - name: 🇷🇺 特殊 专线 俄罗斯
     server: aexbjbgp01.114837322.xyz
     port: 14495
     type: trojan
@@ -898,7 +898,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇲🇾 特殊 Kudog免费提供专线 马来西亚
+  - name: 🇲🇾 特殊 专线 马来西亚
     server: aexgzbgp01.114837322.xyz
     port: 14519
     type: trojan
@@ -906,7 +906,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 特殊 Kudog免费提供专线 尼日利亚
+  - name: 🇯🇵 特殊 专线 尼日利亚
     server: aexgzbgp01.114837322.xyz
     port: 14510
     type: trojan
@@ -914,7 +914,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇵🇰 特殊 Kudog免费提供专线 巴基斯坦
+  - name: 🇵🇰 特殊 专线 巴基斯坦
     server: aexgzbgp01.114837322.xyz
     port: 14516
     type: trojan
@@ -922,7 +922,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇲🇩 特殊 Kudog免费提供专线 摩尔多瓦
+  - name: 🇲🇩 特殊 专线 摩尔多瓦
     server: aexbjbgp01.114837322.xyz
     port: 14517
     type: trojan
@@ -930,7 +930,7 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - name: 🇦🇷 购物 Kudog免费提供专线 阿根廷
+  - name: 🇦🇷 购物 专线 阿根廷
     server: aexshbgp01.114837322.xyz
     port: 14497
     type: trojan
@@ -938,103 +938,103 @@ proxies:
     sni: mpvideo.qpic.cn
     skip-cert-verify: true
     udp: true
-  - {name: "🇭🇰 日用 Kudog免费提供专线 香港 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: "🇸🇬 日用 Kudog免费提供专线 狮城 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: "🇯🇵 日用 Kudog免费提供专线 日本 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: "🇺🇸 日用 Kudog免费提供专线 美国 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 04-a, server: aexgzbgp01.114837322.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 05-a, server: aexgzbgp01.114837322.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 06-a, server: aexgzbgp01.114837322.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 07-a, server: aexgzbgp01.114837322.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 高级 Kudog免费提供专线 香港 08-a, server: aexgzbgp01.114837322.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 高级 Kudog免费提供专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14111, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 高级 Kudog免费提供专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14112, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 高级 Kudog免费提供专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14113, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 高级 Kudog免费提供专线 狮城 04-a, server: aexgzbgp01.114837322.xyz, port: 14114, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 高级 Kudog免费提供专线 狮城 05-a, server: aexgzbgp01.114837322.xyz, port: 14115, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14133, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14134, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14135, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14136, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 07-a, server: aexshbgp01.114837322.xyz, port: 14137, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 08-a, server: aexshbgp01.114837322.xyz, port: 14138, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 09-a, server: aexshbgp01.114837322.xyz, port: 14139, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 高级 Kudog免费提供专线 美国 10-a, server: aexshbgp01.114837322.xyz, port: 14140, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 高级 Kudog免费提供专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 高级 Kudog免费提供专线 韩国 02-a, server: aexshbgp01.114837322.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 高级 Kudog免费提供专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14151, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 高级 Kudog免费提供专线 台湾 02-a, server: aexgzbgp01.114837322.xyz, port: 14152, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 05-a, server: aexshbgp01.114837322.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 06-a, server: aexshbgp01.114837322.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 07-a, server: aexshbgp01.114837322.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 高级 Kudog免费提供专线 日本 08-a, server: aexshbgp01.114837322.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 标准 Kudog免费提供专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 标准 Kudog免费提供专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14002, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇰 标准 Kudog免费提供专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 标准 Kudog免费提供专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14011, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 标准 Kudog免费提供专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14012, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇸🇬 标准 Kudog免费提供专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14013, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14031, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14032, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14033, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14034, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14035, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇸 标准 Kudog免费提供专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14036, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇰🇷 标准 Kudog免费提供专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 标准 Kudog免费提供专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 标准 Kudog免费提供专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14022, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 标准 Kudog免费提供专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 标准 Kudog免费提供专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇨🇳 标准 Kudog免费提供专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14051, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇬🇧 特殊 Kudog免费提供专线 伦敦 01-a, server: aexbjbgp01.114837322.xyz, port: 14201, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇬🇧 特殊 Kudog免费提供专线 伦敦 02-a, server: aexbjbgp01.114837322.xyz, port: 14202, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇩🇪 特殊 Kudog免费提供专线 德国 01-a, server: aexbjbgp01.114837322.xyz, port: 14200, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇩🇪 特殊 Kudog免费提供专线 德国 02-a, server: aexbjbgp01.114837322.xyz, port: 14207, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇧🇷 特殊 Kudog免费提供专线 巴西 01-a, server: aexshbgp01.114837322.xyz, port: 14205, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇨🇦 特殊 Kudog免费提供专线 加拿大 01-a, server: aexshbgp01.114837322.xyz, port: 14206, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇨🇦 特殊 Kudog免费提供专线 加拿大 02-a, server: aexshbgp01.114837322.xyz, port: 14208, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇹🇷 特殊 Kudog免费提供专线 土耳其 01-a, server: aexbjbgp01.114837322.xyz, port: 14198, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇹🇷 特殊 Kudog免费提供专线 土耳其 02-a, server: aexbjbgp01.114837322.xyz, port: 14218, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇹🇭 特殊 Kudog免费提供专线 泰国-a, server: aexgzbgp01.114837322.xyz, port: 14161, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇻🇳 特殊 Kudog免费提供专线 越南-a, server: aexgzbgp01.114837322.xyz, port: 14162, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇮🇳 特殊 Kudog免费提供专线 印度-a, server: aexgzbgp01.114837322.xyz, port: 14194, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇦🇺 特殊 Kudog免费提供专线 悉尼-a, server: aexgzbgp01.114837322.xyz, port: 14199, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇦🇪 特殊 Kudog免费提供专线 迪拜-a, server: aexgzbgp01.114837322.xyz, port: 14203, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇫🇷 特殊 Kudog免费提供专线 法国-a, server: aexbjbgp01.114837322.xyz, port: 14204, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇳🇱 特殊 Kudog免费提供专线 荷兰-a, server: aexbjbgp01.114837322.xyz, port: 14213, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇮🇩 特殊 Kudog免费提供专线 印尼-a, server: aexgzbgp01.114837322.xyz, port: 14214, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇪🇬 特殊 Kudog免费提供专线 埃及-a, server: aexbjbgp01.114837322.xyz, port: 14220, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇵🇭 特殊 Kudog免费提供专线 菲律宾-a, server: aexgzbgp01.114837322.xyz, port: 14191, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇮🇹 特殊 Kudog免费提供专线 意大利-a, server: aexbjbgp01.114837322.xyz, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇪🇸 特殊 Kudog免费提供专线 西班牙-a, server: aexbjbgp01.114837322.xyz, port: 14192, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇭🇺 特殊 Kudog免费提供专线 匈牙利-a, server: aexbjbgp01.114837322.xyz, port: 14196, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇮🇱 特殊 Kudog免费提供专线 以色列-a, server: aexbjbgp01.114837322.xyz, port: 14209, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇺🇦 特殊 Kudog免费提供专线 乌克兰-a, server: aexbjbgp01.114837322.xyz, port: 14211, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇷🇺 特殊 Kudog免费提供专线 俄罗斯-a, server: aexbjbgp01.114837322.xyz, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇲🇾 特殊 Kudog免费提供专线 马来西亚-a, server: aexgzbgp01.114837322.xyz, port: 14219, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇯🇵 特殊 Kudog免费提供专线 尼日利亚-a, server: aexgzbgp01.114837322.xyz, port: 14210, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇵🇰 特殊 Kudog免费提供专线 巴基斯坦-a, server: aexgzbgp01.114837322.xyz, port: 14216, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇲🇩 特殊 Kudog免费提供专线 摩尔多瓦-a, server: aexbjbgp01.114837322.xyz, port: 14217, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - {name: 🇦🇷 购物 Kudog免费提供专线 阿根廷-a, server: aexshbgp01.114837322.xyz, port: 14197, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
-  - { name: '加拿大 Kudog免费提供高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-n899yYukPeoUjy9g.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-ca.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-ca.sm-node.com } }
-  - { name: '日本 Kudog免费提供高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-DJDbAt2YVvbnkbkD.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-jp.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-jp.sm-node.com } }
-  - { name: '新加坡 Kudog免费提供高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-nyB0KwN6XDQURoxT.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-sg.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-sg.sm-node.com } }
-  - { name: '美国 Kudog免费提供高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-IJV6qatEWPKShkrR.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-us.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-us.sm-node.com } }
-  - { name: '香港 01（HKT）失联Q群：43176383', type: trojan, server: tj-hk-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: cDqM10LLiGQ7NngX.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
-  - { name: '香港 02（HKT）失联Q群：43176383', type: trojan, server: tj-hk-2.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: T3r2YXaAlignVsb6.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
-  - { name: '日本 樱花 新协议 免费使用 永久免费 抵制收费', type: trojan, server: tj-jp-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
-  - { name: '香港 新协议 免费使用 永久免费 抵制收费', type: trojan, server: aws-hkhk.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
-  - { name: '日本 aws 新协议 免费使用 永久免费 抵制收费', type: trojan, server: aws-jpjp.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
-  - { name: '美国 新协议 免费使用 永久免费 抵制收费(GPT优化)', type: trojan, server: tj-us-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - {name: "🇭🇰 日用 专线 香港 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14091, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇸🇬 日用 专线 狮城 [0.2]-a", server: aexgzbgp01.114837322.xyz, port: 14092, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇯🇵 日用 专线 日本 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14093, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: "🇺🇸 日用 专线 美国 [0.2]-a", server: aexshbgp01.114837322.xyz, port: 14094, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14101, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14102, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14103, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 04-a, server: aexgzbgp01.114837322.xyz, port: 14104, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 05-a, server: aexgzbgp01.114837322.xyz, port: 14105, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 06-a, server: aexgzbgp01.114837322.xyz, port: 14106, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 07-a, server: aexgzbgp01.114837322.xyz, port: 14107, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 高级 专线 香港 08-a, server: aexgzbgp01.114837322.xyz, port: 14108, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14111, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14112, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14113, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 04-a, server: aexgzbgp01.114837322.xyz, port: 14114, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 高级 专线 狮城 05-a, server: aexgzbgp01.114837322.xyz, port: 14115, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14131, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14132, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14133, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14134, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14135, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14136, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 07-a, server: aexshbgp01.114837322.xyz, port: 14137, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 08-a, server: aexshbgp01.114837322.xyz, port: 14138, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 09-a, server: aexshbgp01.114837322.xyz, port: 14139, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 高级 专线 美国 10-a, server: aexshbgp01.114837322.xyz, port: 14140, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14141, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 高级 专线 韩国 02-a, server: aexshbgp01.114837322.xyz, port: 14142, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14151, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 高级 专线 台湾 02-a, server: aexgzbgp01.114837322.xyz, port: 14152, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14121, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14122, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14123, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14124, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 05-a, server: aexshbgp01.114837322.xyz, port: 14125, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 06-a, server: aexshbgp01.114837322.xyz, port: 14126, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 07-a, server: aexshbgp01.114837322.xyz, port: 14127, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 高级 专线 日本 08-a, server: aexshbgp01.114837322.xyz, port: 14128, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 01-a, server: aexgzbgp01.114837322.xyz, port: 14001, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 02-a, server: aexgzbgp01.114837322.xyz, port: 14002, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇰 标准 专线 香港 03-a, server: aexgzbgp01.114837322.xyz, port: 14003, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 01-a, server: aexgzbgp01.114837322.xyz, port: 14011, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 02-a, server: aexgzbgp01.114837322.xyz, port: 14012, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇸🇬 标准 专线 狮城 03-a, server: aexgzbgp01.114837322.xyz, port: 14013, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 01-a, server: aexshbgp01.114837322.xyz, port: 14031, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 02-a, server: aexshbgp01.114837322.xyz, port: 14032, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 03-a, server: aexshbgp01.114837322.xyz, port: 14033, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 04-a, server: aexshbgp01.114837322.xyz, port: 14034, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 05-a, server: aexshbgp01.114837322.xyz, port: 14035, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇸 标准 专线 美国 06-a, server: aexshbgp01.114837322.xyz, port: 14036, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇰🇷 标准 专线 韩国 01-a, server: aexshbgp01.114837322.xyz, port: 14041, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 01-a, server: aexshbgp01.114837322.xyz, port: 14021, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 02-a, server: aexshbgp01.114837322.xyz, port: 14022, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 03-a, server: aexshbgp01.114837322.xyz, port: 14023, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 标准 专线 日本 04-a, server: aexshbgp01.114837322.xyz, port: 14024, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇳 标准 专线 台湾 01-a, server: aexgzbgp01.114837322.xyz, port: 14051, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 01-a, server: aexbjbgp01.114837322.xyz, port: 14201, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇬🇧 特殊 专线 伦敦 02-a, server: aexbjbgp01.114837322.xyz, port: 14202, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 01-a, server: aexbjbgp01.114837322.xyz, port: 14200, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇩🇪 特殊 专线 德国 02-a, server: aexbjbgp01.114837322.xyz, port: 14207, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇧🇷 特殊 专线 巴西 01-a, server: aexshbgp01.114837322.xyz, port: 14205, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 01-a, server: aexshbgp01.114837322.xyz, port: 14206, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇨🇦 特殊 专线 加拿大 02-a, server: aexshbgp01.114837322.xyz, port: 14208, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 01-a, server: aexbjbgp01.114837322.xyz, port: 14198, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇷 特殊 专线 土耳其 02-a, server: aexbjbgp01.114837322.xyz, port: 14218, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇹🇭 特殊 专线 泰国-a, server: aexgzbgp01.114837322.xyz, port: 14161, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇻🇳 特殊 专线 越南-a, server: aexgzbgp01.114837322.xyz, port: 14162, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇳 特殊 专线 印度-a, server: aexgzbgp01.114837322.xyz, port: 14194, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇺 特殊 专线 悉尼-a, server: aexgzbgp01.114837322.xyz, port: 14199, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇪 特殊 专线 迪拜-a, server: aexgzbgp01.114837322.xyz, port: 14203, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇫🇷 特殊 专线 法国-a, server: aexbjbgp01.114837322.xyz, port: 14204, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇳🇱 特殊 专线 荷兰-a, server: aexbjbgp01.114837322.xyz, port: 14213, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇩 特殊 专线 印尼-a, server: aexgzbgp01.114837322.xyz, port: 14214, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇪🇬 特殊 专线 埃及-a, server: aexbjbgp01.114837322.xyz, port: 14220, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇵🇭 特殊 专线 菲律宾-a, server: aexgzbgp01.114837322.xyz, port: 14191, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇹 特殊 专线 意大利-a, server: aexbjbgp01.114837322.xyz, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇪🇸 特殊 专线 西班牙-a, server: aexbjbgp01.114837322.xyz, port: 14192, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇭🇺 特殊 专线 匈牙利-a, server: aexbjbgp01.114837322.xyz, port: 14196, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇮🇱 特殊 专线 以色列-a, server: aexbjbgp01.114837322.xyz, port: 14209, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇺🇦 特殊 专线 乌克兰-a, server: aexbjbgp01.114837322.xyz, port: 14211, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇷🇺 特殊 专线 俄罗斯-a, server: aexbjbgp01.114837322.xyz, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇲🇾 特殊 专线 马来西亚-a, server: aexgzbgp01.114837322.xyz, port: 14219, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇯🇵 特殊 专线 尼日利亚-a, server: aexgzbgp01.114837322.xyz, port: 14210, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇵🇰 特殊 专线 巴基斯坦-a, server: aexgzbgp01.114837322.xyz, port: 14216, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇲🇩 特殊 专线 摩尔多瓦-a, server: aexbjbgp01.114837322.xyz, port: 14217, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - {name: 🇦🇷 购物 专线 阿根廷-a, server: aexshbgp01.114837322.xyz, port: 14197, type: ss, cipher: chacha20-ietf-poly1305, password: lE9uL5fR3yR9, plugin: obfs, plugin-opts: {mode: http, host: bf93027192.iqiyi.com}, udp: true}
+  - { name: '加拿大 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-n899yYukPeoUjy9g.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-ca.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-ca.sm-node.com } }
+  - { name: '日本 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-DJDbAt2YVvbnkbkD.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-jp.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-jp.sm-node.com } }
+  - { name: '新加坡 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-nyB0KwN6XDQURoxT.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-sg.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-sg.sm-node.com } }
+  - { name: '美国 高速 cdn 1', type: vmess, server: cdncdncdn.aikunapp.com, port: 443, uuid: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, alterId: 0, cipher: auto, udp: true, tls: true, client-fingerprint: chrome, skip-cert-verify: true, servername: r-IJV6qatEWPKShkrR.sm-node.com, network: ws, ws-opts: { path: '/vmess_ws/smjc/index?ed=8192', headers: { Host: cdn-us.sm-node.com } }, ws-path: '/vmess_ws/smjc/index?ed=8192', ws-headers: { Host: cdn-us.sm-node.com } }
+  - { name: '香港 01（HKT）', type: trojan, server: tj-hk-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: cDqM10LLiGQ7NngX.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '香港 02（HKT）', type: trojan, server: tj-hk-2.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: T3r2YXaAlignVsb6.apple.com, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '日本 樱花 新协议', type: trojan, server: tj-jp-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '香港 新协议', type: trojan, server: aws-hkhk.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '日本 aws 新协议', type: trojan, server: aws-jpjp.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
+  - { name: '美国 新协议(GPT优化)', type: trojan, server: tj-us-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
   - { name: '新加坡 AWS', type: trojan, server: tj-sg-1.aikunapp.com, port: 6001, password: 5647c9c0-8e2f-4592-acb5-ba8888f4acd1, udp: true, client-fingerprint: chrome, sni: bootcdn.xuexi.cn, skip-cert-verify: true, smux: { enabled: true, protocol: h2mux } }
 proxy-groups:
   - name: Proxy
@@ -1044,125 +1044,125 @@ proxy-groups:
       - 🤖️ 自动选择服务器2
       - DIRECT
       - 🇭🇰 0-香港Netflix
-      - 🇨🇳 3-台湾Kudog免费提供中转
-      - 🇺🇸 21美国Kudog免费提供中转
-      - 🇨🇳 4-台湾Kudog免费提供中转
-      - 🇯🇵 15日本Kudog免费提供中转
-      - 🇨🇳 0-台湾Kudog免费提供中转
-      - 🇭🇰 8-香港Kudog免费提供中转
-      - 🇯🇵 16日本Kudog免费提供中转
-      - 🇯🇵 17日本Kudog免费提供中转
-      - 🇯🇵 18日本Kudog免费提供中转
-      - 🇨🇳 5-台湾Kudog免费提供中转
-      - 🇭🇰 6-香港Kudog免费提供中转
-      - 🇭🇰 7-香港Kudog免费提供中转
-      - 🇨🇳 14-台湾Kudog免费提供中转
-      - 🇭🇰 9-香港Kudog免费提供中转
-      - 🇺🇸 19美国Kudog免费提供中转
-      - 🇨🇳 13-台湾Kudog免费提供中转
-      - 🇨🇳 1-台湾Kudog免费提供中转
-      - 🇭🇰 11-香港Kudog免费提供中转
-      - 🇨🇳 2-台湾Kudog免费提供中转
-      - 🇨🇳 12-台湾Kudog免费提供中转
-      - 🇭🇰 10-香港Kudog免费提供中转
-      - 🇺🇸 20美国Kudog免费提供中转
-      - 🇭🇰 日用 Kudog免费提供专线 香港 [0.2]
-      - 🇸🇬 日用 Kudog免费提供专线 狮城 [0.2]
-      - 🇯🇵 日用 Kudog免费提供专线 日本 [0.2]
-      - 🇺🇸 日用 Kudog免费提供专线 美国 [0.2]
-      - 🇭🇰 高级 Kudog免费提供专线 香港 01
-      - 🇭🇰 高级 Kudog免费提供专线 香港 02
-      - 🇭🇰 高级 Kudog免费提供专线 香港 03
-      - 🇭🇰 高级 Kudog免费提供专线 香港 04
-      - 🇭🇰 高级 Kudog免费提供专线 香港 05
-      - 🇭🇰 高级 Kudog免费提供专线 香港 06
-      - 🇭🇰 高级 Kudog免费提供专线 香港 07
-      - 🇭🇰 高级 Kudog免费提供专线 香港 08
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 01
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 02
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 03
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 04
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 05
-      - 🇺🇸 高级 Kudog免费提供专线 美国 01
-      - 🇺🇸 高级 Kudog免费提供专线 美国 02
-      - 🇺🇸 高级 Kudog免费提供专线 美国 03
-      - 🇺🇸 高级 Kudog免费提供专线 美国 04
-      - 🇺🇸 高级 Kudog免费提供专线 美国 05
-      - 🇺🇸 高级 Kudog免费提供专线 美国 06
-      - 🇺🇸 高级 Kudog免费提供专线 美国 07
-      - 🇺🇸 高级 Kudog免费提供专线 美国 08
-      - 🇺🇸 高级 Kudog免费提供专线 美国 09
-      - 🇺🇸 高级 Kudog免费提供专线 美国 10
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 01
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 02
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 01
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 02
-      - 🇯🇵 高级 Kudog免费提供专线 日本 01
-      - 🇯🇵 高级 Kudog免费提供专线 日本 02
-      - 🇯🇵 高级 Kudog免费提供专线 日本 03
-      - 🇯🇵 高级 Kudog免费提供专线 日本 04
-      - 🇯🇵 高级 Kudog免费提供专线 日本 05
-      - 🇯🇵 高级 Kudog免费提供专线 日本 06
-      - 🇯🇵 高级 Kudog免费提供专线 日本 07
-      - 🇯🇵 高级 Kudog免费提供专线 日本 08
-      - 🇭🇰 标准 Kudog免费提供专线 香港 01
-      - 🇭🇰 标准 Kudog免费提供专线 香港 02
-      - 🇭🇰 标准 Kudog免费提供专线 香港 03
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 01
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 02
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 03
-      - 🇺🇸 标准 Kudog免费提供专线 美国 01
-      - 🇺🇸 标准 Kudog免费提供专线 美国 02
-      - 🇺🇸 标准 Kudog免费提供专线 美国 03
-      - 🇺🇸 标准 Kudog免费提供专线 美国 04
-      - 🇺🇸 标准 Kudog免费提供专线 美国 05
-      - 🇺🇸 标准 Kudog免费提供专线 美国 06
-      - 🇰🇷 标准 Kudog免费提供专线 韩国 01
-      - 🇯🇵 标准 Kudog免费提供专线 日本 01
-      - 🇯🇵 标准 Kudog免费提供专线 日本 02
-      - 🇯🇵 标准 Kudog免费提供专线 日本 03
-      - 🇯🇵 标准 Kudog免费提供专线 日本 04
-      - 🇨🇳 标准 Kudog免费提供专线 台湾 01
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 01
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 02
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 01
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 02
-      - 🇧🇷 特殊 Kudog免费提供专线 巴西 01
-      - 🇧🇷 特殊 Kudog免费提供专线 巴西 02
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 01
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 02
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 01
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 02
-      - 🇹🇭 特殊 Kudog免费提供专线 泰国
-      - 🇻🇳 特殊 Kudog免费提供专线 越南
-      - 🇮🇳 特殊 Kudog免费提供专线 印度
-      - 🇦🇺 特殊 Kudog免费提供专线 悉尼
-      - 🇦🇪 特殊 Kudog免费提供专线 迪拜
-      - 🇫🇷 特殊 Kudog免费提供专线 法国
-      - 🇳🇱 特殊 Kudog免费提供专线 荷兰
-      - 🇮🇩 特殊 Kudog免费提供专线 印尼
-      - 🇿🇦 特殊 Kudog免费提供专线 南非
-      - 🇵🇭 特殊 Kudog免费提供专线 菲律宾
-      - 🇮🇹 特殊 Kudog免费提供专线 意大利
-      - 🇪🇸 特殊 Kudog免费提供专线 西班牙
-      - 🇭🇺 特殊 Kudog免费提供专线 匈牙利
-      - 🇮🇱 特殊 Kudog免费提供专线 以色列
-      - 🇺🇦 特殊 Kudog免费提供专线 乌克兰
-      - 🇷🇺 特殊 Kudog免费提供专线 俄罗斯
-      - 🇲🇾 特殊 Kudog免费提供专线 马来西亚
-      - 🇵🇰 特殊 Kudog免费提供专线 巴基斯坦
-      - 🇲🇩 特殊 Kudog免费提供专线 摩尔多瓦
-      - 🇦🇷 购物 Kudog免费提供专线 阿根廷
-      - 加拿大 Kudog免费提供高速 cdn 1
-      - 日本 Kudog免费提供高速 cdn 1
-      - 新加坡 Kudog免费提供高速 cdn 1
-      - 美国 Kudog免费提供高速 cdn 1
-      - 香港 01（HKT）失联Q群：43176383
-      - 香港 02（HKT）失联Q群：43176383
-      - 日本 樱花 新协议 免费使用 永久免费 抵制收费
-      - 香港 新协议 免费使用 永久免费 抵制收费
-      - 日本 aws 新协议 免费使用 永久免费 抵制收费
-      - 美国 新协议 免费使用 永久免费 抵制收费(GPT优化)
+      - 🇨🇳 3-台湾中转
+      - 🇺🇸 21美国中转
+      - 🇨🇳 4-台湾中转
+      - 🇯🇵 15日本中转
+      - 🇨🇳 0-台湾中转
+      - 🇭🇰 8-香港中转
+      - 🇯🇵 16日本中转
+      - 🇯🇵 17日本中转
+      - 🇯🇵 18日本中转
+      - 🇨🇳 5-台湾中转
+      - 🇭🇰 6-香港中转
+      - 🇭🇰 7-香港中转
+      - 🇨🇳 14-台湾中转
+      - 🇭🇰 9-香港中转
+      - 🇺🇸 19美国中转
+      - 🇨🇳 13-台湾中转
+      - 🇨🇳 1-台湾中转
+      - 🇭🇰 11-香港中转
+      - 🇨🇳 2-台湾中转
+      - 🇨🇳 12-台湾中转
+      - 🇭🇰 10-香港中转
+      - 🇺🇸 20美国中转
+      - 🇭🇰 日用 专线 香港 [0.2]
+      - 🇸🇬 日用 专线 狮城 [0.2]
+      - 🇯🇵 日用 专线 日本 [0.2]
+      - 🇺🇸 日用 专线 美国 [0.2]
+      - 🇭🇰 高级 专线 香港 01
+      - 🇭🇰 高级 专线 香港 02
+      - 🇭🇰 高级 专线 香港 03
+      - 🇭🇰 高级 专线 香港 04
+      - 🇭🇰 高级 专线 香港 05
+      - 🇭🇰 高级 专线 香港 06
+      - 🇭🇰 高级 专线 香港 07
+      - 🇭🇰 高级 专线 香港 08
+      - 🇸🇬 高级 专线 狮城 01
+      - 🇸🇬 高级 专线 狮城 02
+      - 🇸🇬 高级 专线 狮城 03
+      - 🇸🇬 高级 专线 狮城 04
+      - 🇸🇬 高级 专线 狮城 05
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
+      - 🇺🇸 高级 专线 美国 03
+      - 🇺🇸 高级 专线 美国 04
+      - 🇺🇸 高级 专线 美国 05
+      - 🇺🇸 高级 专线 美国 06
+      - 🇺🇸 高级 专线 美国 07
+      - 🇺🇸 高级 专线 美国 08
+      - 🇺🇸 高级 专线 美国 09
+      - 🇺🇸 高级 专线 美国 10
+      - 🇰🇷 高级 专线 韩国 01
+      - 🇰🇷 高级 专线 韩国 02
+      - 🇨🇳 高级 专线 台湾 01
+      - 🇨🇳 高级 专线 台湾 02
+      - 🇯🇵 高级 专线 日本 01
+      - 🇯🇵 高级 专线 日本 02
+      - 🇯🇵 高级 专线 日本 03
+      - 🇯🇵 高级 专线 日本 04
+      - 🇯🇵 高级 专线 日本 05
+      - 🇯🇵 高级 专线 日本 06
+      - 🇯🇵 高级 专线 日本 07
+      - 🇯🇵 高级 专线 日本 08
+      - 🇭🇰 标准 专线 香港 01
+      - 🇭🇰 标准 专线 香港 02
+      - 🇭🇰 标准 专线 香港 03
+      - 🇸🇬 标准 专线 狮城 01
+      - 🇸🇬 标准 专线 狮城 02
+      - 🇸🇬 标准 专线 狮城 03
+      - 🇺🇸 标准 专线 美国 01
+      - 🇺🇸 标准 专线 美国 02
+      - 🇺🇸 标准 专线 美国 03
+      - 🇺🇸 标准 专线 美国 04
+      - 🇺🇸 标准 专线 美国 05
+      - 🇺🇸 标准 专线 美国 06
+      - 🇰🇷 标准 专线 韩国 01
+      - 🇯🇵 标准 专线 日本 01
+      - 🇯🇵 标准 专线 日本 02
+      - 🇯🇵 标准 专线 日本 03
+      - 🇯🇵 标准 专线 日本 04
+      - 🇨🇳 标准 专线 台湾 01
+      - 🇬🇧 特殊 专线 伦敦 01
+      - 🇬🇧 特殊 专线 伦敦 02
+      - 🇩🇪 特殊 专线 德国 01
+      - 🇩🇪 特殊 专线 德国 02
+      - 🇧🇷 特殊 专线 巴西 01
+      - 🇧🇷 特殊 专线 巴西 02
+      - 🇨🇦 特殊 专线 加拿大 01
+      - 🇨🇦 特殊 专线 加拿大 02
+      - 🇹🇷 特殊 专线 土耳其 01
+      - 🇹🇷 特殊 专线 土耳其 02
+      - 🇹🇭 特殊 专线 泰国
+      - 🇻🇳 特殊 专线 越南
+      - 🇮🇳 特殊 专线 印度
+      - 🇦🇺 特殊 专线 悉尼
+      - 🇦🇪 特殊 专线 迪拜
+      - 🇫🇷 特殊 专线 法国
+      - 🇳🇱 特殊 专线 荷兰
+      - 🇮🇩 特殊 专线 印尼
+      - 🇿🇦 特殊 专线 南非
+      - 🇵🇭 特殊 专线 菲律宾
+      - 🇮🇹 特殊 专线 意大利
+      - 🇪🇸 特殊 专线 西班牙
+      - 🇭🇺 特殊 专线 匈牙利
+      - 🇮🇱 特殊 专线 以色列
+      - 🇺🇦 特殊 专线 乌克兰
+      - 🇷🇺 特殊 专线 俄罗斯
+      - 🇲🇾 特殊 专线 马来西亚
+      - 🇵🇰 特殊 专线 巴基斯坦
+      - 🇲🇩 特殊 专线 摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
+      - 加拿大 高速 cdn 1
+      - 日本 高速 cdn 1
+      - 新加坡 高速 cdn 1
+      - 美国 高速 cdn 1
+      - 香港 01（HKT）
+      - 香港 02（HKT）
+      - 日本 樱花 新协议
+      - 香港 新协议
+      - 日本 aws 新协议
+      - 美国 新协议(GPT优化)
       - 新加坡 AWS
   - name: 🤖️ 自动选择服务器
     type: url-test
@@ -1171,218 +1171,218 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 0-香港Netflix
-      - 🇨🇳 3-台湾Kudog免费提供中转
-      - 🇺🇸 21美国Kudog免费提供中转
-      - 🇨🇳 4-台湾Kudog免费提供中转
-      - 🇯🇵 15日本Kudog免费提供中转
-      - 🇨🇳 0-台湾Kudog免费提供中转
-      - 🇭🇰 8-香港Kudog免费提供中转
-      - 🇯🇵 16日本Kudog免费提供中转
-      - 🇯🇵 17日本Kudog免费提供中转
-      - 🇯🇵 18日本Kudog免费提供中转
-      - 🇨🇳 5-台湾Kudog免费提供中转
-      - 🇭🇰 6-香港Kudog免费提供中转
-      - 🇭🇰 7-香港Kudog免费提供中转
-      - 🇨🇳 14-台湾Kudog免费提供中转
-      - 🇭🇰 9-香港Kudog免费提供中转
-      - 🇺🇸 19美国Kudog免费提供中转
-      - 🇨🇳 13-台湾Kudog免费提供中转
-      - 🇨🇳 1-台湾Kudog免费提供中转
-      - 🇭🇰 11-香港Kudog免费提供中转
-      - 🇨🇳 2-台湾Kudog免费提供中转
-      - 🇨🇳 12-台湾Kudog免费提供中转
-      - 🇭🇰 10-香港Kudog免费提供中转
-      - 🇺🇸 20美国Kudog免费提供中转
-      - 🇭🇰 日用 Kudog免费提供专线 香港 [0.2]
-      - 🇸🇬 日用 Kudog免费提供专线 狮城 [0.2]
-      - 🇯🇵 日用 Kudog免费提供专线 日本 [0.2]
-      - 🇺🇸 日用 Kudog免费提供专线 美国 [0.2]
-      - 🇭🇰 高级 Kudog免费提供专线 香港 01
-      - 🇭🇰 高级 Kudog免费提供专线 香港 02
-      - 🇭🇰 高级 Kudog免费提供专线 香港 03
-      - 🇭🇰 高级 Kudog免费提供专线 香港 04
-      - 🇭🇰 高级 Kudog免费提供专线 香港 05
-      - 🇭🇰 高级 Kudog免费提供专线 香港 06
-      - 🇭🇰 高级 Kudog免费提供专线 香港 07
-      - 🇭🇰 高级 Kudog免费提供专线 香港 08
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 01
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 02
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 03
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 04
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 05
-      - 🇺🇸 高级 Kudog免费提供专线 美国 01
-      - 🇺🇸 高级 Kudog免费提供专线 美国 02
-      - 🇺🇸 高级 Kudog免费提供专线 美国 03
-      - 🇺🇸 高级 Kudog免费提供专线 美国 04
-      - 🇺🇸 高级 Kudog免费提供专线 美国 05
-      - 🇺🇸 高级 Kudog免费提供专线 美国 06
-      - 🇺🇸 高级 Kudog免费提供专线 美国 07
-      - 🇺🇸 高级 Kudog免费提供专线 美国 08
-      - 🇺🇸 高级 Kudog免费提供专线 美国 09
-      - 🇺🇸 高级 Kudog免费提供专线 美国 10
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 01
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 02
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 01
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 02
-      - 🇯🇵 高级 Kudog免费提供专线 日本 01
-      - 🇯🇵 高级 Kudog免费提供专线 日本 02
-      - 🇯🇵 高级 Kudog免费提供专线 日本 03
-      - 🇯🇵 高级 Kudog免费提供专线 日本 04
-      - 🇯🇵 高级 Kudog免费提供专线 日本 05
-      - 🇯🇵 高级 Kudog免费提供专线 日本 06
-      - 🇯🇵 高级 Kudog免费提供专线 日本 07
-      - 🇯🇵 高级 Kudog免费提供专线 日本 08
-      - 🇭🇰 标准 Kudog免费提供专线 香港 01
-      - 🇭🇰 标准 Kudog免费提供专线 香港 02
-      - 🇭🇰 标准 Kudog免费提供专线 香港 03
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 01
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 02
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 03
-      - 🇺🇸 标准 Kudog免费提供专线 美国 01
-      - 🇺🇸 标准 Kudog免费提供专线 美国 02
-      - 🇺🇸 标准 Kudog免费提供专线 美国 03
-      - 🇺🇸 标准 Kudog免费提供专线 美国 04
-      - 🇺🇸 标准 Kudog免费提供专线 美国 05
-      - 🇺🇸 标准 Kudog免费提供专线 美国 06
-      - 🇰🇷 标准 Kudog免费提供专线 韩国 01
-      - 🇯🇵 标准 Kudog免费提供专线 日本 01
-      - 🇯🇵 标准 Kudog免费提供专线 日本 02
-      - 🇯🇵 标准 Kudog免费提供专线 日本 03
-      - 🇯🇵 标准 Kudog免费提供专线 日本 04
-      - 🇨🇳 标准 Kudog免费提供专线 台湾 01
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 01
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 02
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 01
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 02
-      - 🇧🇷 特殊 Kudog免费提供专线 巴西 01
-      - 🇧🇷 特殊 Kudog免费提供专线 巴西 02
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 01
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 02
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 01
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 02
-      - 🇹🇭 特殊 Kudog免费提供专线 泰国
-      - 🇻🇳 特殊 Kudog免费提供专线 越南
-      - 🇮🇳 特殊 Kudog免费提供专线 印度
-      - 🇦🇺 特殊 Kudog免费提供专线 悉尼
-      - 🇦🇪 特殊 Kudog免费提供专线 迪拜
-      - 🇫🇷 特殊 Kudog免费提供专线 法国
-      - 🇳🇱 特殊 Kudog免费提供专线 荷兰
-      - 🇮🇩 特殊 Kudog免费提供专线 印尼
-      - 🇿🇦 特殊 Kudog免费提供专线 南非
-      - 🇵🇭 特殊 Kudog免费提供专线 菲律宾
-      - 🇮🇹 特殊 Kudog免费提供专线 意大利
-      - 🇪🇸 特殊 Kudog免费提供专线 西班牙
-      - 🇭🇺 特殊 Kudog免费提供专线 匈牙利
-      - 🇮🇱 特殊 Kudog免费提供专线 以色列
-      - 🇺🇦 特殊 Kudog免费提供专线 乌克兰
-      - 🇷🇺 特殊 Kudog免费提供专线 俄罗斯
-      - 🇲🇾 特殊 Kudog免费提供专线 马来西亚
-      - 🇵🇰 特殊 Kudog免费提供专线 巴基斯坦
-      - 🇲🇩 特殊 Kudog免费提供专线 摩尔多瓦
-      - 🇦🇷 购物 Kudog免费提供专线 阿根廷
-      - 🇭🇰 日用 Kudog免费提供专线 香港 [0.2]-a
-      - 🇸🇬 日用 Kudog免费提供专线 狮城 [0.2]-a
-      - 🇯🇵 日用 Kudog免费提供专线 日本 [0.2]-a
-      - 🇺🇸 日用 Kudog免费提供专线 美国 [0.2]-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 01-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 02-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 03-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 04-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 05-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 06-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 07-a
-      - 🇭🇰 高级 Kudog免费提供专线 香港 08-a
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 01-a
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 02-a
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 03-a
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 04-a
-      - 🇸🇬 高级 Kudog免费提供专线 狮城 05-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 01-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 02-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 03-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 04-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 05-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 06-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 07-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 08-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 09-a
-      - 🇺🇸 高级 Kudog免费提供专线 美国 10-a
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 01-a
-      - 🇰🇷 高级 Kudog免费提供专线 韩国 02-a
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 01-a
-      - 🇨🇳 高级 Kudog免费提供专线 台湾 02-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 01-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 02-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 03-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 04-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 05-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 06-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 07-a
-      - 🇯🇵 高级 Kudog免费提供专线 日本 08-a
-      - 🇭🇰 标准 Kudog免费提供专线 香港 01-a
-      - 🇭🇰 标准 Kudog免费提供专线 香港 02-a
-      - 🇭🇰 标准 Kudog免费提供专线 香港 03-a
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 01-a
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 02-a
-      - 🇸🇬 标准 Kudog免费提供专线 狮城 03-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 01-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 02-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 03-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 04-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 05-a
-      - 🇺🇸 标准 Kudog免费提供专线 美国 06-a
-      - 🇰🇷 标准 Kudog免费提供专线 韩国 01-a
-      - 🇯🇵 标准 Kudog免费提供专线 日本 01-a
-      - 🇯🇵 标准 Kudog免费提供专线 日本 02-a
-      - 🇯🇵 标准 Kudog免费提供专线 日本 03-a
-      - 🇯🇵 标准 Kudog免费提供专线 日本 04-a
-      - 🇨🇳 标准 Kudog免费提供专线 台湾 01-a
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 01-a
-      - 🇬🇧 特殊 Kudog免费提供专线 伦敦 02-a
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 01-a
-      - 🇩🇪 特殊 Kudog免费提供专线 德国 02-a
-      - 🇧🇷 特殊 Kudog免费提供专线 巴西 01-a
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 01-a
-      - 🇨🇦 特殊 Kudog免费提供专线 加拿大 02-a
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 01-a
-      - 🇹🇷 特殊 Kudog免费提供专线 土耳其 02-a
-      - 🇹🇭 特殊 Kudog免费提供专线 泰国-a
-      - 🇻🇳 特殊 Kudog免费提供专线 越南-a
-      - 🇮🇳 特殊 Kudog免费提供专线 印度-a
-      - 🇦🇺 特殊 Kudog免费提供专线 悉尼-a
-      - 🇦🇪 特殊 Kudog免费提供专线 迪拜-a
-      - 🇫🇷 特殊 Kudog免费提供专线 法国-a
-      - 🇳🇱 特殊 Kudog免费提供专线 荷兰-a
-      - 🇮🇩 特殊 Kudog免费提供专线 印尼-a
-      - 🇪🇬 特殊 Kudog免费提供专线 埃及-a
-      - 🇵🇭 特殊 Kudog免费提供专线 菲律宾-a
-      - 🇮🇹 特殊 Kudog免费提供专线 意大利-a
-      - 🇪🇸 特殊 Kudog免费提供专线 西班牙-a
-      - 🇭🇺 特殊 Kudog免费提供专线 匈牙利-a
-      - 🇮🇱 特殊 Kudog免费提供专线 以色列-a
-      - 🇺🇦 特殊 Kudog免费提供专线 乌克兰-a
-      - 🇷🇺 特殊 Kudog免费提供专线 俄罗斯-a
-      - 🇲🇾 特殊 Kudog免费提供专线 马来西亚-a
-      - 🇯🇵 特殊 Kudog免费提供专线 尼日利亚-a
-      - 🇵🇰 特殊 Kudog免费提供专线 巴基斯坦-a
-      - 🇲🇩 特殊 Kudog免费提供专线 摩尔多瓦-a
-      - 🇦🇷 购物 Kudog免费提供专线 阿根廷-a
+      - 🇨🇳 3-台湾中转
+      - 🇺🇸 21美国中转
+      - 🇨🇳 4-台湾中转
+      - 🇯🇵 15日本中转
+      - 🇨🇳 0-台湾中转
+      - 🇭🇰 8-香港中转
+      - 🇯🇵 16日本中转
+      - 🇯🇵 17日本中转
+      - 🇯🇵 18日本中转
+      - 🇨🇳 5-台湾中转
+      - 🇭🇰 6-香港中转
+      - 🇭🇰 7-香港中转
+      - 🇨🇳 14-台湾中转
+      - 🇭🇰 9-香港中转
+      - 🇺🇸 19美国中转
+      - 🇨🇳 13-台湾中转
+      - 🇨🇳 1-台湾中转
+      - 🇭🇰 11-香港中转
+      - 🇨🇳 2-台湾中转
+      - 🇨🇳 12-台湾中转
+      - 🇭🇰 10-香港中转
+      - 🇺🇸 20美国中转
+      - 🇭🇰 日用 专线 香港 [0.2]
+      - 🇸🇬 日用 专线 狮城 [0.2]
+      - 🇯🇵 日用 专线 日本 [0.2]
+      - 🇺🇸 日用 专线 美国 [0.2]
+      - 🇭🇰 高级 专线 香港 01
+      - 🇭🇰 高级 专线 香港 02
+      - 🇭🇰 高级 专线 香港 03
+      - 🇭🇰 高级 专线 香港 04
+      - 🇭🇰 高级 专线 香港 05
+      - 🇭🇰 高级 专线 香港 06
+      - 🇭🇰 高级 专线 香港 07
+      - 🇭🇰 高级 专线 香港 08
+      - 🇸🇬 高级 专线 狮城 01
+      - 🇸🇬 高级 专线 狮城 02
+      - 🇸🇬 高级 专线 狮城 03
+      - 🇸🇬 高级 专线 狮城 04
+      - 🇸🇬 高级 专线 狮城 05
+      - 🇺🇸 高级 专线 美国 01
+      - 🇺🇸 高级 专线 美国 02
+      - 🇺🇸 高级 专线 美国 03
+      - 🇺🇸 高级 专线 美国 04
+      - 🇺🇸 高级 专线 美国 05
+      - 🇺🇸 高级 专线 美国 06
+      - 🇺🇸 高级 专线 美国 07
+      - 🇺🇸 高级 专线 美国 08
+      - 🇺🇸 高级 专线 美国 09
+      - 🇺🇸 高级 专线 美国 10
+      - 🇰🇷 高级 专线 韩国 01
+      - 🇰🇷 高级 专线 韩国 02
+      - 🇨🇳 高级 专线 台湾 01
+      - 🇨🇳 高级 专线 台湾 02
+      - 🇯🇵 高级 专线 日本 01
+      - 🇯🇵 高级 专线 日本 02
+      - 🇯🇵 高级 专线 日本 03
+      - 🇯🇵 高级 专线 日本 04
+      - 🇯🇵 高级 专线 日本 05
+      - 🇯🇵 高级 专线 日本 06
+      - 🇯🇵 高级 专线 日本 07
+      - 🇯🇵 高级 专线 日本 08
+      - 🇭🇰 标准 专线 香港 01
+      - 🇭🇰 标准 专线 香港 02
+      - 🇭🇰 标准 专线 香港 03
+      - 🇸🇬 标准 专线 狮城 01
+      - 🇸🇬 标准 专线 狮城 02
+      - 🇸🇬 标准 专线 狮城 03
+      - 🇺🇸 标准 专线 美国 01
+      - 🇺🇸 标准 专线 美国 02
+      - 🇺🇸 标准 专线 美国 03
+      - 🇺🇸 标准 专线 美国 04
+      - 🇺🇸 标准 专线 美国 05
+      - 🇺🇸 标准 专线 美国 06
+      - 🇰🇷 标准 专线 韩国 01
+      - 🇯🇵 标准 专线 日本 01
+      - 🇯🇵 标准 专线 日本 02
+      - 🇯🇵 标准 专线 日本 03
+      - 🇯🇵 标准 专线 日本 04
+      - 🇨🇳 标准 专线 台湾 01
+      - 🇬🇧 特殊 专线 伦敦 01
+      - 🇬🇧 特殊 专线 伦敦 02
+      - 🇩🇪 特殊 专线 德国 01
+      - 🇩🇪 特殊 专线 德国 02
+      - 🇧🇷 特殊 专线 巴西 01
+      - 🇧🇷 特殊 专线 巴西 02
+      - 🇨🇦 特殊 专线 加拿大 01
+      - 🇨🇦 特殊 专线 加拿大 02
+      - 🇹🇷 特殊 专线 土耳其 01
+      - 🇹🇷 特殊 专线 土耳其 02
+      - 🇹🇭 特殊 专线 泰国
+      - 🇻🇳 特殊 专线 越南
+      - 🇮🇳 特殊 专线 印度
+      - 🇦🇺 特殊 专线 悉尼
+      - 🇦🇪 特殊 专线 迪拜
+      - 🇫🇷 特殊 专线 法国
+      - 🇳🇱 特殊 专线 荷兰
+      - 🇮🇩 特殊 专线 印尼
+      - 🇿🇦 特殊 专线 南非
+      - 🇵🇭 特殊 专线 菲律宾
+      - 🇮🇹 特殊 专线 意大利
+      - 🇪🇸 特殊 专线 西班牙
+      - 🇭🇺 特殊 专线 匈牙利
+      - 🇮🇱 特殊 专线 以色列
+      - 🇺🇦 特殊 专线 乌克兰
+      - 🇷🇺 特殊 专线 俄罗斯
+      - 🇲🇾 特殊 专线 马来西亚
+      - 🇵🇰 特殊 专线 巴基斯坦
+      - 🇲🇩 特殊 专线 摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
+      - 🇭🇰 日用 专线 香港 [0.2]-a
+      - 🇸🇬 日用 专线 狮城 [0.2]-a
+      - 🇯🇵 日用 专线 日本 [0.2]-a
+      - 🇺🇸 日用 专线 美国 [0.2]-a
+      - 🇭🇰 高级 专线 香港 01-a
+      - 🇭🇰 高级 专线 香港 02-a
+      - 🇭🇰 高级 专线 香港 03-a
+      - 🇭🇰 高级 专线 香港 04-a
+      - 🇭🇰 高级 专线 香港 05-a
+      - 🇭🇰 高级 专线 香港 06-a
+      - 🇭🇰 高级 专线 香港 07-a
+      - 🇭🇰 高级 专线 香港 08-a
+      - 🇸🇬 高级 专线 狮城 01-a
+      - 🇸🇬 高级 专线 狮城 02-a
+      - 🇸🇬 高级 专线 狮城 03-a
+      - 🇸🇬 高级 专线 狮城 04-a
+      - 🇸🇬 高级 专线 狮城 05-a
+      - 🇺🇸 高级 专线 美国 01-a
+      - 🇺🇸 高级 专线 美国 02-a
+      - 🇺🇸 高级 专线 美国 03-a
+      - 🇺🇸 高级 专线 美国 04-a
+      - 🇺🇸 高级 专线 美国 05-a
+      - 🇺🇸 高级 专线 美国 06-a
+      - 🇺🇸 高级 专线 美国 07-a
+      - 🇺🇸 高级 专线 美国 08-a
+      - 🇺🇸 高级 专线 美国 09-a
+      - 🇺🇸 高级 专线 美国 10-a
+      - 🇰🇷 高级 专线 韩国 01-a
+      - 🇰🇷 高级 专线 韩国 02-a
+      - 🇨🇳 高级 专线 台湾 01-a
+      - 🇨🇳 高级 专线 台湾 02-a
+      - 🇯🇵 高级 专线 日本 01-a
+      - 🇯🇵 高级 专线 日本 02-a
+      - 🇯🇵 高级 专线 日本 03-a
+      - 🇯🇵 高级 专线 日本 04-a
+      - 🇯🇵 高级 专线 日本 05-a
+      - 🇯🇵 高级 专线 日本 06-a
+      - 🇯🇵 高级 专线 日本 07-a
+      - 🇯🇵 高级 专线 日本 08-a
+      - 🇭🇰 标准 专线 香港 01-a
+      - 🇭🇰 标准 专线 香港 02-a
+      - 🇭🇰 标准 专线 香港 03-a
+      - 🇸🇬 标准 专线 狮城 01-a
+      - 🇸🇬 标准 专线 狮城 02-a
+      - 🇸🇬 标准 专线 狮城 03-a
+      - 🇺🇸 标准 专线 美国 01-a
+      - 🇺🇸 标准 专线 美国 02-a
+      - 🇺🇸 标准 专线 美国 03-a
+      - 🇺🇸 标准 专线 美国 04-a
+      - 🇺🇸 标准 专线 美国 05-a
+      - 🇺🇸 标准 专线 美国 06-a
+      - 🇰🇷 标准 专线 韩国 01-a
+      - 🇯🇵 标准 专线 日本 01-a
+      - 🇯🇵 标准 专线 日本 02-a
+      - 🇯🇵 标准 专线 日本 03-a
+      - 🇯🇵 标准 专线 日本 04-a
+      - 🇨🇳 标准 专线 台湾 01-a
+      - 🇬🇧 特殊 专线 伦敦 01-a
+      - 🇬🇧 特殊 专线 伦敦 02-a
+      - 🇩🇪 特殊 专线 德国 01-a
+      - 🇩🇪 特殊 专线 德国 02-a
+      - 🇧🇷 特殊 专线 巴西 01-a
+      - 🇨🇦 特殊 专线 加拿大 01-a
+      - 🇨🇦 特殊 专线 加拿大 02-a
+      - 🇹🇷 特殊 专线 土耳其 01-a
+      - 🇹🇷 特殊 专线 土耳其 02-a
+      - 🇹🇭 特殊 专线 泰国-a
+      - 🇻🇳 特殊 专线 越南-a
+      - 🇮🇳 特殊 专线 印度-a
+      - 🇦🇺 特殊 专线 悉尼-a
+      - 🇦🇪 特殊 专线 迪拜-a
+      - 🇫🇷 特殊 专线 法国-a
+      - 🇳🇱 特殊 专线 荷兰-a
+      - 🇮🇩 特殊 专线 印尼-a
+      - 🇪🇬 特殊 专线 埃及-a
+      - 🇵🇭 特殊 专线 菲律宾-a
+      - 🇮🇹 特殊 专线 意大利-a
+      - 🇪🇸 特殊 专线 西班牙-a
+      - 🇭🇺 特殊 专线 匈牙利-a
+      - 🇮🇱 特殊 专线 以色列-a
+      - 🇺🇦 特殊 专线 乌克兰-a
+      - 🇷🇺 特殊 专线 俄罗斯-a
+      - 🇲🇾 特殊 专线 马来西亚-a
+      - 🇯🇵 特殊 专线 尼日利亚-a
+      - 🇵🇰 特殊 专线 巴基斯坦-a
+      - 🇲🇩 特殊 专线 摩尔多瓦-a
+      - 🇦🇷 购物 专线 阿根廷-a
   - name: 🤖️ 自动选择服务器2
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加拿大 Kudog免费提供高速 cdn 1
-      - 日本 Kudog免费提供高速 cdn 1
-      - 新加坡 Kudog免费提供高速 cdn 1
-      - 美国 Kudog免费提供高速 cdn 1
-      - 香港 01（HKT）失联Q群：43176383
-      - 香港 02（HKT）失联Q群：43176383
-      - 日本 樱花 新协议 免费使用 永久免费 抵制收费
-      - 香港 新协议 免费使用 永久免费 抵制收费
-      - 日本 aws 新协议 免费使用 永久免费 抵制收费
-      - 美国 新协议 免费使用 永久免费 抵制收费(GPT优化)
+      - 加拿大 高速 cdn 1
+      - 日本 高速 cdn 1
+      - 新加坡 高速 cdn 1
+      - 美国 高速 cdn 1
+      - 香港 01（HKT）
+      - 香港 02（HKT）
+      - 日本 樱花 新协议
+      - 香港 新协议
+      - 日本 aws 新协议
+      - 美国 新协议(GPT优化)
       - 新加坡 AWS
 rules:
   - DOMAIN-KEYWORD,chatgpt,新加坡 AWS
